@@ -5,7 +5,7 @@ date:   2017-11-13 09:00:00 +0800
 categories: consul 
 ---
 
-***Несколько вольный перевод [статьи с DO](https://www.digitalocean.com/community/tutorials/an-introduction-to-using-consul-a-service-discovery-system-on-ubuntu-14-04)
+*Несколько вольный перевод [статьи с DO](https://www.digitalocean.com/community/tutorials/an-introduction-to-using-consul-a-service-discovery-system-on-ubuntu-14-04)*
 
 #### Введение
 
