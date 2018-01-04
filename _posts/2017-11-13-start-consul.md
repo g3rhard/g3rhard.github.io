@@ -25,7 +25,22 @@ categories: consul
 
 Как уже говорилось раньше, Consul подходит под разные режимы установки, как stand alone, так и cluster mode. Для тестовых целей вполне подходит stand alone. Для полноценной, не тестовой, работы, конечно лучше выбирать режим, когда Consul будет находиться на нескольких нодах, что бы была некая избыточность данных. Когда такая схема запускается, есть много обязательных для выполнения пунктов: определиться с протоколом общения нод, выбрать лидера и создать работающий кластер.
 
-Consul может быть установлен с помощью Docker, в этой записи будет использоваться именно этот способ.
+Consul может быть установлен с помощью Docker, в этой записи будет использоваться именно этот способ. Запущу я его с помощью docker-compose, используя вот такой файл:
+
+```
+version: '3' # more about this at https://docs.docker.com/compose/compose-file/
+services:
+  consul:
+    image: consul:latest # official and latest release of consul
+    volumes:
+      - server.json:/consul/config/server.json:ro # connect our config file for server
+    ports:
+      - "8400:8400"
+      - "8500:8500" # consul ui - web interface
+      - "8600:53/udp" # our other containers can use consul dns service
+volumes:
+  server.json:
+```
 
 На этом все.
 
