@@ -5,7 +5,7 @@ date:   2017-10-19 09:00:00 +0800
 categories: chef 
 ---
  
-По мотивам [evtuhovich.ru](http://evtuhovich.ru/blog/2014/03/28/knife-solo/)
+***По мотивам [evtuhovich.ru](http://evtuhovich.ru/blog/2014/03/28/knife-solo/)***
 
 0\. Предварительный этап
 
@@ -83,7 +83,9 @@ end
 knife solo cook myhostname
 ```
 
-P.S. Полезные ссылки:
+На этом все.
+
+### Дополнительные ссылки:
 1. Разумеется, больше информации на [оф. сайте](https://docs.chef.io/chef_solo.html).
 2. Небольшим подспорьем являлся репозиторий [macovsky](https://github.com/macovsky/rails-on-chef-solo).
 3. Блог [alxschwarz](https://ru.alxschwarz.com/2012/04/chef-basics-introduction-to-cookbooks/).

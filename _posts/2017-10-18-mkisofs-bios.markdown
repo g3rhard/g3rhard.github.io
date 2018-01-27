@@ -43,3 +43,5 @@ cp AFUDOSU.EXE AFUDOS.EXE
 cp CHOICE.{smc,exe}
 cp FDT.{smc,exe}
 ```
+
+На этом все.

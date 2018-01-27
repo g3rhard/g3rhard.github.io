@@ -5,6 +5,8 @@ date:   2017-12-06 09:00:00 +0800
 categories: translate
 ---
 
+***По мотивам [Oh shit, git!](http://ohshitgit.com).***
+
 На самом деле Git не сложен:
 
 ```sh
@@ -81,7 +83,5 @@ git commit -m "your message here"
 
 На этом все.
 
-*По мотивам [Oh shit, git!](http://ohshitgit.com).*
-
 ### Дополнительные ссылки:
-[Git diff HEAD vs --staged](https://stackoverflow.com/questions/16562121/git-diff-head-vs-staged)
+1. [Git diff HEAD vs --staged](https://stackoverflow.com/questions/16562121/git-diff-head-vs-staged)

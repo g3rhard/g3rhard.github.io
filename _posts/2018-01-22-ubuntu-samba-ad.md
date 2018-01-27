@@ -43,7 +43,7 @@ sudo apt-get install pbis-open
 На этом все.
 
 ### Дополнительные ссылки:
-
 1. [Power Broker Identity Services Open](https://www.beyondtrust.com/products/powerbroker-identity-services-open/)
 2. [Ubuntu Wiki - Ввод в домен Windows](http://help.ubuntu.ru/wiki/ввод_в_домен_windows)
 3. [PBIS Open - Wiki](https://github.com/BeyondTrust/pbis-open/wiki)
+4. [Power Broker и другие средства авторизации - Tux.in.ua](https://www.tux.in.ua/articles/3117)

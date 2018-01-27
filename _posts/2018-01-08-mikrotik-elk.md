@@ -4,7 +4,7 @@ title:  "Настраиваем централизованный сбор лог
 date:   2018-01-08 09:00:00 +0800
 categories: mikrotik
 ---
-* По мотивам [YouTube - Централизованный сбор логов MikroTik c помощью ELK](https://www.youtube.com/watch?v=Lgyp6T-FIqU) *
+***По мотивам [YouTube - Централизованный сбор логов MikroTik c помощью ELK](https://www.youtube.com/watch?v=Lgyp6T-FIqU)***
 
 ### Настраиваем сервер
 
@@ -33,7 +33,6 @@ match => {
 На этом все.
 
 ### Дополнительные ссылки:
-
 1. [Mikrotik - Wiki](https://wiki.mikrotik.com/)
 2. [Elastic - GROK](https://www.elastic.co/guide/en/logstash/current/plugins-filters-grok.html)
 3. [Grok Debug Test App](http://grokdebug.herokuapp.com)
