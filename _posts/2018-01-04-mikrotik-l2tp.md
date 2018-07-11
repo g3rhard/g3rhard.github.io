@@ -2,7 +2,7 @@
 layout: post
 title:  "Выходим в интернет за пределами страны (Mikrotik + L2TP)"
 date:   2018-01-04 09:00:00 +0800
-categories: mikrotik
+categories: mikrotik vpn
 ---
 
 ### Настраиваем сервер
