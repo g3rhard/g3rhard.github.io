@@ -9,7 +9,16 @@ categories: nix mysql
 ```
 PURGE BINARY LOGS BEFORE '2018-01-01 12:00:00';
 ```
-
+2. Узнать количество строк в таблице:
+```
+SELECT COUNT(1) FROM название_таблицы
+# SQL-запрос с условием:
+SELECT COUNT(1) FROM название_таблицы WHERE условие
+```
+3. Сделать дамп БД:
+```
+mysqldump -u USERNAME -p --single-transaction DB_NAME > DUMP_NAME.sql
+```
 
 На этом все.
 

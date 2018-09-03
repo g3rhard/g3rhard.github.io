@@ -4,7 +4,7 @@ title: О блоге
 permalink: /about/
 ---
 
-Системное администрирование из холодной и мрачной Сибири...
+Системное администрирование из России внутри Европы...
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 

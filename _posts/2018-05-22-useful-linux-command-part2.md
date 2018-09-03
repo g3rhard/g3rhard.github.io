@@ -40,6 +40,10 @@ ffmpeg -loop_input -i cover.jpg -i soundtrack.mp3 -shortest -acodec copy output_
 rsync --progress -avz -e ssh /directory/path/ user@host:/path/on/server/
 rsync --progress -avz -e ssh user@host:/path/on/server/ /directory/path/
 ```
+9. Синхронизация папок на сервере
+```
+rsync -avzh /FOLDER1/source /FOLDER2/
+```
 
 На этом все.
 
@@ -47,3 +51,4 @@ rsync --progress -avz -e ssh user@host:/path/on/server/ /directory/path/
 1. [7 Tips – Tuning Command Line History in Bash](https://www.shellhacks.com/tune-command-line-history-bash/)
 2. [КОПИРОВАНИЕ ДАННЫХ С ПОМОЩЬЮ RSYNC](https://www.baf.ru/2008/02/13/kopirovanie-dannyh-s-pomoshhju-rsync/)
 3. [Bash One-Liners](http://www.bashoneliners.com/)
+4. [Rsync (Remote Sync): 10 Practical Examples of Rsync Command in Linux](https://www.tecmint.com/rsync-local-remote-file-synchronization-commands/)
