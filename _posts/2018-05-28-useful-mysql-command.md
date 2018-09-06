@@ -19,6 +19,14 @@ SELECT COUNT(1) FROM название_таблицы WHERE условие
 ```
 mysqldump -u USERNAME -p --single-transaction DB_NAME > DUMP_NAME.sql
 ```
+4. Залить дамп БД:
+```
+mysql -u USERNAME -p DB_NAME < DUMP_NAME.sql
+```
+5. Узнать права пользователя:
+```
+show grants for 'USER'@'HOST';
+```
 
 На этом все.
 
@@ -26,3 +34,4 @@ mysqldump -u USERNAME -p --single-transaction DB_NAME > DUMP_NAME.sql
 1. [mysql: полезные команды и настройки](https://proft.me/2011/07/19/mysql-poleznye-komandy-i-nastrojki/)
 2. [mysqldump: 1044 Access denied when using LOCK TABLES](https://michaelrigart.be/mysqldump-1044-access-denied-using-lock-tables/)
 3. [DO - Migrate MySQL](https://www.digitalocean.com/community/tutorials/how-to-migrate-a-mysql-database-between-two-servers)
+4. [The MySQL SYS Schema in MySQL 5.7.7](https://mysqlserverteam.com/the-mysql-sys-schema-in-mysql-5-7-7/)
