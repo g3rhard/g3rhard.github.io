@@ -52,6 +52,8 @@ You can force a re-scan of your media directory by killing the minidlnad process
 minidlnad -R -f ~/.config/minidlna/minidlna.conf -P ~/.config/minidlna/minidlna.pid
 Now, you should be able to open Media Player on your PS4 and stream your media. Supported media formats can be found here.
 
+Небольшое дополнение: Стороннее ПО, которое предлагает трансляцию AirPlay на экран ПК, может мешать работе minidlna и подобного ПО, так как использует тот же порт (4500) для своих нужд.
+
 На этом все.
 
 ### Дополнительные ссылки:

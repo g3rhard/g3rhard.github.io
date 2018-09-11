@@ -24,6 +24,11 @@ defaults write com.apple.dock ResetLaunchPad -bool TRUE;killall Dock
 ```
 sudo nano /var/at/tabs/ИМЯ_ПОЛЬЗОВАТЕЛЯ
 ```
+5. Показывать/Не показывать скрытые файлы и папки
+```
+defaults write com.apple.finder AppleShowAllFiles -bool TRUE && killall Finder
+defaults write com.apple.finder AppleShowAllFiles -bool FALSE && killall Finder
+```
 
 На этом все.
 
