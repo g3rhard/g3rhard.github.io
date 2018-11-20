@@ -17,6 +17,10 @@ $ cd /home/user/foo
 $ mkdir !*
 mkdir /home/user/foo
 ```
+3. Удаляем сервер из .ssh/known_hosts
+```
+ssh-keygen -R SERVER_NAME_OR_IP
+```
 
 
 На этом все.
