@@ -18,6 +18,10 @@ docker exec -it CONTAINER_NAME /bin/bash
 ```
 docker ps --all
 ```
+3. Обновить опции контейнера docker
+```
+
+```
 
 На этом все.
 
