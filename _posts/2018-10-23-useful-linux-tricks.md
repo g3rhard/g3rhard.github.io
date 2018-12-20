@@ -21,7 +21,10 @@ mkdir /home/user/foo
 ```
 ssh-keygen -R SERVER_NAME_OR_IP
 ```
-
+4. Проверить доступность порта с помощью nc:
+```
+nc -v -z SERVER_NAME_OR_IP PORT
+```
 
 На этом все.
 

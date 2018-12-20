@@ -27,6 +27,10 @@ mysql -u USERNAME -p DB_NAME < DUMP_NAME.sql
 ```
 show grants for 'USER'@'HOST';
 ```
+6. Выполнить дамп и залить его на новый сервер, без промежуточного файла:
+```
+mysqldump -u USER -p'PASSWORD' --single-transaction DB_NAME | mysql -u USER -h HOST -p'PASSWORD' DB_NAME
+```
 
 На этом все.
 
