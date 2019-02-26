@@ -18,12 +18,30 @@ docker exec -it CONTAINER_NAME /bin/bash
 ```
 docker ps --all
 ```
-3. Обновить опции контейнера docker
+4. Обновить опции контейнера docker
 ```
 
+```
+5. Удалить все запущенные контейнеры:
+```
+docker kill $(docker ps -q)
+```
+6. Удалить все остановленные контейнеры:
+```
+docker rm $(docker ps -a -q)
+```
+7. Удалить все образы:
+```
+docker rmi $(docker images -q)
+```
+8. Почистить систему Docker:
+```
+docker system prune
+docker system prune -af
 ```
 
 На этом все.
 
 ### Дополнительные ссылки:
 1. [remove-docker-containers.md](https://gist.github.com/ngpestelos/4fc2e31e19f86b9cf10b)
+2. [SO - How to clean up Docker](https://stackoverflow.com/questions/45798076/how-to-clean-up-docker)
