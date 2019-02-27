@@ -2,7 +2,7 @@
 layout: post
 title:  "Быстрый старт с Chef Solo"
 date:   2017-10-19 09:00:00 +0800
-categories: chef 
+categories: chef nix
 ---
  
 ***По мотивам [evtuhovich.ru](http://evtuhovich.ru/blog/2014/03/28/knife-solo/)***

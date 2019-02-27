@@ -2,7 +2,7 @@
 layout: post
 title:  "Git: Я что-то сломал в репозитарии"
 date:   2017-12-06 09:00:00 +0800
-categories: translate
+categories: translate git
 ---
 
 ***По мотивам [Oh shit, git!](http://ohshitgit.com).***

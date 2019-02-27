@@ -2,7 +2,7 @@
 layout: post
 title:  "Полезные трюки при работе в Linux"
 date:   2018-10-23 09:00:00 +0800
-categories: linux tricks
+categories: linux tricks cli
 ---
 
 1. Повторить последнюю команду (например, с sudo):

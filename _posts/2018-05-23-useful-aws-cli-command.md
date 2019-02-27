@@ -2,7 +2,7 @@
 layout: post
 title:  "Полезные команды AWS CLI"
 date:   2018-05-23 09:00:00 +0800
-categories: nix 
+categories: aws cli
 ---
 
 1. Кому принадлежит образ AMI?

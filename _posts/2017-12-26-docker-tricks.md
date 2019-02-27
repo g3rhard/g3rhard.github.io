@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Несколько трюков при работе с Docker"
+title:  "Несколько трюков при работе с Docker + использование Portainer"
 date:   2017-12-26 09:00:00 +0800
-categories: docker
+categories: docker cli
 ---
 
 

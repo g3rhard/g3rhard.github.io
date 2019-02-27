@@ -2,7 +2,7 @@
 layout: post
 title:  "Полезные команды MySQL"
 date:   2018-05-28 09:00:00 +0800
-categories: nix mysql
+categories: nix mysql cli
 ---
 
 1. Удалить binlog до определенной даты:

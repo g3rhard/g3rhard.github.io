@@ -2,7 +2,7 @@
 layout: post
 title:  "Полезные команды при работе с Docker"
 date:   2018-09-11 09:00:00 +0800
-categories: docker
+categories: docker cli
 ---
 
 1. Удалить неиспользуемые контейнеры (старые версии):

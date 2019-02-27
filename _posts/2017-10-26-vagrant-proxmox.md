@@ -2,7 +2,7 @@
 layout: post
 title:  "Сборка плагина vagrant-proxmox"
 date:   2017-10-26 09:00:00 +0800
-categories: vagrant 
+categories: vagrant nix
 ---
 
 Короткая заметка об установке плагина vagrant-proxmox, поскольку выполнение команды `proxmox plugin install vagrant-proxmox` устанавливает старую версию плагина.

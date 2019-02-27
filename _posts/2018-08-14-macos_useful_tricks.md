@@ -2,7 +2,7 @@
 layout: post
 title:  "Полезные однострочники для работы с Mac OS X"
 date:   2018-08-14 09:00:00 +0800
-categories: macos
+categories: macos cli
 ---
 
 1. Создать ссылку на папку iCloud в Finder для удобного доступа через cli:

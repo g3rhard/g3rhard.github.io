@@ -2,7 +2,7 @@
 layout: post
 title:  "Настраиваем централизованный сбор логов Mikrotik используя ELK"
 date:   2018-01-08 09:00:00 +0800
-categories: mikrotik
+categories: mikrotik elk nix
 ---
 ***По мотивам [YouTube - Централизованный сбор логов MikroTik c помощью ELK](https://www.youtube.com/watch?v=Lgyp6T-FIqU)***
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "AWS CLI Cheatsheet (перевод)"
 date:   2017-12-16 09:00:00 +0800
-categories: aws translate
+categories: aws translate cli
 ---
 
 1. Получить список ключей EC2
