@@ -24,9 +24,27 @@ github_username: g3rhard
 
 # Build settings
 markdown: kramdown
+# Theme
 theme: minima
-gems:
-  - jekyll-feed
+
+permalink: /:year/:month/:title.html
+
 exclude:
   - Gemfile
   - Gemfile.lock
+  - README.md
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-paginate-v2
+
+# Plugins options
+pagination:
+  enabled: true
+  per_page: 6
+  permalink: '/page/:num/'
+  title: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true

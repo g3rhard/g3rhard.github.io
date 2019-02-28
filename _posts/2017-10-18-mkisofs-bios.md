@@ -7,9 +7,9 @@ categories: new hack
 
 Иногда возникает необходимость обновления BIOS на материнских платах. Некоторые производители добавляют пункт обновления BIOS прямо в меню BIOS, некоторые требуют только ручного обновления из DOS.
 
-- Устанавливаем утилиту mkisofs
+- Устанавливаем утилиту mkisofs:
 
->a. buntu:
+a. buntu:
 ```sh
 apt install -y genisoimage
 ```
@@ -17,10 +17,8 @@ b. macos:
 ```sh
 brew install dvdrtools
 ```
-
-- Скачиваем и создаем загрузочный образ
-
->```sh
+- Скачиваем и создаем загрузочный образ:
+```sh
 mkdir boot_dos_iso #
 cd boot_dos_iso/
 wget -N http://www.fdos.info/bootdisks/ISO/FDOEMCD.builder.zip

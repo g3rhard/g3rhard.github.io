@@ -8,10 +8,7 @@ categories: android
 1. Установка Android на sd карту:
 
 	a. Загрузите дистрибутив Android [aosp-7.1.2_r17-rpi3-20170628.tar.gz][AOSP]
-		
-
 	b. Запишите его на SD с помощью [Etcher.io](https://etcher.io)
-
 
 2. Для того что бы была возможность использовать ADB установите себе ADB:
 
@@ -37,5 +34,6 @@ categories: android
 
 Также стоит обратить внимание на то, что по умолчанию выставлено разрешение в 1280х720 в файле config.txt.
 
-   [GApps]: <https://files.ime.moe/Android/Raspberry.Pi.3/open_gapps-arm-7.1-tvstock-20170420-rpi3.tar.gz>
-   [AOSP]: <https://files.ime.moe/Android/Raspberry.Pi.3/aosp-7.1.2_r17-rpi3-20170628.tar.gz>
+### Дополнительные ссылки:
+1. [GApps](https://files.ime.moe/Android/Raspberry.Pi.3/open_gapps-arm-7.1-tvstock-20170420-rpi3.tar.gz)
+2. [AOSP](https://files.ime.moe/Android/Raspberry.Pi.3/aosp-7.1.2_r17-rpi3-20170628.tar.gz)
