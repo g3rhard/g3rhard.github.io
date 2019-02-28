@@ -46,7 +46,7 @@ rsync -avzh /FOLDER1/source /FOLDER2/
 ```
 10. Показать IP адреса контейнеров Docker
 ```
-docker inspect -f '{{.Name}} - {{.NetworkSettings.IPAddress }}' $(docker ps -aq)
+{% raw %} docker inspect -f '{{.Name}} - {{.NetworkSettings.IPAddress }}' $(docker ps -aq){% endraw %}
 ```
 
 На этом все.

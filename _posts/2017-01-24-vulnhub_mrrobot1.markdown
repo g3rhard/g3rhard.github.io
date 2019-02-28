@@ -2,7 +2,7 @@
 layout: post
 title:  "Разбор взлома VulnHub Mr. Robot: 1"
 date:   2017-01-24 16:00:00 +0800
-categories: new hack 
+categories: new hack
 ---
 
 Недавно увидел статью на Хабре, где описывается прохождение CTF от VulnHub - Mr.Robot 1, стало интересно попробовать себя в роли Эллиота.

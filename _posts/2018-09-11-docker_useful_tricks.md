@@ -18,9 +18,9 @@ docker exec -it CONTAINER_NAME /bin/bash
 ```
 docker ps --all
 ```
-4. Обновить опции контейнера docker
+4. [Обновить опции контейнера docker](https://docs.docker.com/engine/reference/commandline/update/)
 ```
-
+docker update [OPTIONS] CONTAINER [CONTAINER...]
 ```
 5. Удалить все запущенные контейнеры:
 ```
