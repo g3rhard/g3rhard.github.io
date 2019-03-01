@@ -6,5 +6,8 @@ categories: shell nix
 ---
 
 
+
 ### Дополнительные ссылки:
-1. [](http://)
+1. [30 Handy Bash Shell Aliases For Linux / Unix / Mac OS X](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html)
+2. [Digital Ocean - An Introduction to Useful Bash Aliases and Functions](https://www.digitalocean.com/community/tutorials/an-introduction-to-useful-bash-aliases-and-functions)
+3. [Gist - ioparaskev](https://gist.github.com/ioparaskev/88875c83bcab519f017b9cdd0b1960e7)

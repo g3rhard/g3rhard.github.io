@@ -10,3 +10,15 @@
 .related h2 {
     font-size: 1rem;
 }
+
+.pager a{
+    color: #2a7ae2;
+}
+
+.pager .next {
+    border: 0;
+}
+
+.pager .previous {
+    border: 0;
+}
