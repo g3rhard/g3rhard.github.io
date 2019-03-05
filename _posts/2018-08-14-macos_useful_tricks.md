@@ -6,26 +6,26 @@ categories: macos cli
 ---
 
 1. Создать ссылку на папку iCloud в Finder для удобного доступа через cli:
-```
+```sh
 ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs iCloud
 ```
 2. Безопасное удаление файлов с помощью rm (на самом деле не особенно)
-```
+```sh
 rm -Pv FILE_NAME
 rm -Pvrf ~/.FOLDER_NAME
 ```
 3. Изменить количество иконок в Launchpad:
-```
+```sh
 defaults write com.apple.dock springboard-columns -int N
 defaults write com.apple.dock springboard-rows -int N
 defaults write com.apple.dock ResetLaunchPad -bool TRUE;killall Dock
 ```
 4. Поправить файл crontab:
-```
+```sh
 sudo nano /var/at/tabs/ИМЯ_ПОЛЬЗОВАТЕЛЯ
 ```
 5. Показывать/Не показывать скрытые файлы и папки
-```
+```sh
 defaults write com.apple.finder AppleShowAllFiles -bool TRUE && killall Finder
 defaults write com.apple.finder AppleShowAllFiles -bool FALSE && killall Finder
 ```

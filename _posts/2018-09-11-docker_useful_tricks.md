@@ -6,36 +6,36 @@ categories: docker cli
 ---
 
 1. Удалить неиспользуемые контейнеры (старые версии):
-```
+```sh
 docker rmi $(docker images -q -f dangling=true)
 docker rmi $(docker images | grep "^<none>" | awk '{print $3}')
 ```
 2. Запустить shell внутри контейнера:
-```
+```sh
 docker exec -it CONTAINER_NAME /bin/bash
 ```
 3. Посмотреть список всех контейнеров:
-```
+```sh
 docker ps --all
 ```
 4. [Обновить опции контейнера docker](https://docs.docker.com/engine/reference/commandline/update/)
-```
+```sh
 docker update [OPTIONS] CONTAINER [CONTAINER...]
 ```
 5. Удалить все запущенные контейнеры:
-```
+```sh
 docker kill $(docker ps -q)
 ```
 6. Удалить все остановленные контейнеры:
-```
+```sh
 docker rm $(docker ps -a -q)
 ```
 7. Удалить все образы:
-```
+```sh
 docker rmi $(docker images -q)
 ```
 8. Почистить систему Docker:
-```
+```sh
 docker system prune
 docker system prune -af
 ```

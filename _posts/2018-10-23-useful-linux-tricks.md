@@ -6,23 +6,23 @@ categories: linux tricks cli
 ---
 
 1. Повторить последнюю команду (например, с sudo):
-```
+```sh
 $ command
 $ sudo !!
 sudo command
 ```
 2. Взять аргумент из предыдущей команды:
-```
+```sh
 $ cd /home/user/foo
 $ mkdir !*
 mkdir /home/user/foo
 ```
 3. Удаляем сервер из .ssh/known_hosts
-```
+```sh
 ssh-keygen -R SERVER_NAME_OR_IP
 ```
 4. Проверить доступность порта с помощью nc:
-```
+```sh
 nc -v -z SERVER_NAME_OR_IP PORT
 ```
 

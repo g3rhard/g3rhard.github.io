@@ -12,15 +12,15 @@ categories: mac brew
 ```
 
 1. [BitBar](https://getbitbar.com) - отличная утилита, не занимающая много памяти и позволяющая располагать оперативную информацию в верхней панели:
-```
+```sh
 brew cask install bitbar
 ```
 2. [Clipy](https://github.com/Clipy/Clipy) - менеджер буфера обмена, поддерживающий макросы:
-```
+```sh
 brew cask install clipy
 ```
 3. [Cyberduck](https://cyberduck.io) - Must have для всех, кто регулярно пользуется FTP, SFTP, AWS S3 и прочими облачными сервисами, отличный функционал, множество поддерживаемых фишек и протоколов:
-```
+```sh
 brew cask install cyberduck
 ```
 
