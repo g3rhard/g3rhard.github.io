@@ -23,7 +23,22 @@ brew cask install clipy
 ```sh
 brew cask install cyberduck
 ```
+4. [iTerm2](https://www.iterm2.com) - лучший эмулятор терминала для Mac OS
+```sh
+brew cask install iterm2
+```
+5. [amethyst](https://ianyh.com/amethyst/) - оконный менеджер, основанный на коде xmonad, хорошо расставляет окна по экрану, хоть и версия пока что далека до стабильного релиза (0.12.2):
+```sh
+brew cask install amethyst
+```
 
+И напоследок небольшой hack, как можно исправить, когда при выполнении brew upgrade получаем ошибку зависимостей:
+```sh
+/usr/bin/find "$(brew --prefix)/Caskroom/"*'/.metadata' -type f -name '*.rb' -print0 | /usr/bin/xargs -0 /usr/bin/perl -i -0pe 's/depends_on macos: \[.*?\]//gsm;s/depends_on macos: .*//g'
+```
 
 ### Дополнительные ссылки:
 1. [Mac App Store - Search & Install any app on Mac](http://macappstore.org)
+2. [homebrew - issue 58046](https://github.com/Homebrew/homebrew-cask/issues/58046)
+3. [iTerm2 - window resize issue](https://superuser.com/questions/581889/iterm-2-window-resizing)
+4. [iTerm2 - window resize issue 2](https://apple.stackexchange.com/questions/98342/changing-the-default-size-of-iterm2-when-it-opens/98406)
