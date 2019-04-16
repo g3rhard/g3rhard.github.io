@@ -45,5 +45,6 @@ aws iam list-users --no-paginate
 
 На этом все.
 
-### Дополнительные ссылки:
+### Дополнительные ссылки
+
 1. [AWS CLI Cheat Sheet](https://github.com/toddm92/aws/wiki/AWS-CLI-Cheat-Sheet) by [toddm92](https://github.com/toddm92)

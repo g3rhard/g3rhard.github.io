@@ -14,9 +14,9 @@ categories: new hack
 JFFS2 - jefferson (to extract jffs2 file)
 binwalk (to extract bin file)
 
-
 На этом все.
 
-### Дополнительные ссылки:
+### Дополнительные ссылки
+
 1. [Binwalk - Quick Start Guide](https://github.com/ReFirmLabs/binwalk/wiki/Quick-Start-Guide)
 2. [Ксакеп - Хак веб-камер](https://xakep.ru/2018/01/23/ipcams-hack/)

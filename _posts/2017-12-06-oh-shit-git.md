@@ -83,5 +83,6 @@ git commit -m "your message here"
 
 На этом все.
 
-### Дополнительные ссылки:
+### Дополнительные ссылки
+
 1. [Git diff HEAD vs --staged](https://stackoverflow.com/questions/16562121/git-diff-head-vs-staged)

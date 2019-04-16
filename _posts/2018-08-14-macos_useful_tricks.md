@@ -46,7 +46,7 @@ defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 
 На этом все.
 
-### Дополнительные ссылки:
+### Дополнительные ссылки
 1. [StackExchange - SRM gone in macOS Sierra (10.12)](https://apple.stackexchange.com/questions/252098/srm-gone-in-macos-sierra-10-12)
 2. [herrbischoff/awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line)
 3. [iMore - 15 Terminal commands that every Mac user should know](https://www.imore.com/fifteen-terminal-tricks-every-mac-user-should-know)

@@ -31,13 +31,15 @@ brew cask install iterm2
 ```sh
 brew cask install amethyst
 ```
+6. [mpsyt](https://github.com/mps-youtube/mps-youtube) - command line interface для тех, кто слушает музыку с Youtube. Для лучшей работы необходимо создать ключ Yotube API в https://console.developers.google.com/apis/api/youtube.googleapis.com/. Клиент прост, интуитивно понятен, есть возможность просмотра видео, используя [mpv](https://github.com/mpv-player/mpv).
 
 И напоследок небольшой hack, как можно исправить, когда при выполнении brew upgrade получаем ошибку зависимостей:
 ```sh
 /usr/bin/find "$(brew --prefix)/Caskroom/"*'/.metadata' -type f -name '*.rb' -print0 | /usr/bin/xargs -0 /usr/bin/perl -i -0pe 's/depends_on macos: \[.*?\]//gsm;s/depends_on macos: .*//g'
 ```
 
-### Дополнительные ссылки:
+### Дополнительные ссылки
+
 1. [Mac App Store - Search & Install any app on Mac](http://macappstore.org)
 2. [homebrew - issue 58046](https://github.com/Homebrew/homebrew-cask/issues/58046)
 3. [iTerm2 - window resize issue](https://superuser.com/questions/581889/iterm-2-window-resizing)

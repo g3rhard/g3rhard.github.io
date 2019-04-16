@@ -34,7 +34,7 @@ mysqldump -u USER -p'PASSWORD' --single-transaction DB_NAME | mysql -u USER -h H
 
 На этом все.
 
-### Дополнительные ссылки:
+### Дополнительные ссылки
 1. [mysql: полезные команды и настройки](https://proft.me/2011/07/19/mysql-poleznye-komandy-i-nastrojki/)
 2. [mysqldump: 1044 Access denied when using LOCK TABLES](https://michaelrigart.be/mysqldump-1044-access-denied-using-lock-tables/)
 3. [DO - Migrate MySQL](https://www.digitalocean.com/community/tutorials/how-to-migrate-a-mysql-database-between-two-servers)

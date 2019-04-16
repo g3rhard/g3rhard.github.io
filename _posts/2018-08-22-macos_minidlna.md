@@ -64,5 +64,5 @@ Now, you should be able to open Media Player on your PS4 and stream your media. 
 
 На этом все.
 
-### Дополнительные ссылки:
+### Дополнительные ссылки
 1. [Install, Configure, and Use minidlna on OS X Yosemite](https://thornelabs.net/2015/08/23/install-configure-and-use-minidlna-on-os-x-yosemite.html)

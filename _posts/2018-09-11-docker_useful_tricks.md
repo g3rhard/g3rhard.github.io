@@ -42,6 +42,6 @@ docker system prune -af
 
 На этом все.
 
-### Дополнительные ссылки:
+### Дополнительные ссылки
 1. [remove-docker-containers.md](https://gist.github.com/ngpestelos/4fc2e31e19f86b9cf10b)
 2. [SO - How to clean up Docker](https://stackoverflow.com/questions/45798076/how-to-clean-up-docker)

@@ -29,10 +29,10 @@ match => {
 - В появившемся окне на вкладке Action правим действие "remote" или добавляем свое;
 - В этом же окне на вкладке Rules добавляем свое правило, какие логи мы хотим отправлять в Elasticsearch.
 
-
 На этом все.
 
-### Дополнительные ссылки:
+### Дополнительные ссылки
+
 1. [Mikrotik - Wiki](https://wiki.mikrotik.com/)
 2. [Elastic - GROK](https://www.elastic.co/guide/en/logstash/current/plugins-filters-grok.html)
 3. [Grok Debug Test App](http://grokdebug.herokuapp.com)

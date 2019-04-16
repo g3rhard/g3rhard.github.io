@@ -11,7 +11,7 @@ categories: nix win ad
 
 Установка (PPA):
 
-```
+```sh
 wget -O - http://repo.pbis.beyondtrust.com/apt/RPM-GPG-KEY-pbis|sudo apt-key add - 
 sudo wget -O /etc/apt/sources.list.d/pbiso.list http://repo.pbis.beyondtrust.com/apt/pbiso.list 
 sudo apt-get update
@@ -32,7 +32,7 @@ sudo apt-get install pbis-open
 
 - Использование sh для пользователей по умолчанию - легко меняется на необходимый shell:
 
-```
+```sh
 /opt/pbis/bin/config LoginShellTemplate /bin/bash
 ```
 
@@ -42,7 +42,8 @@ sudo apt-get install pbis-open
 
 На этом все.
 
-### Дополнительные ссылки:
+### Дополнительные ссылки
+
 1. [Power Broker Identity Services Open](https://www.beyondtrust.com/products/powerbroker-identity-services-open/)
 2. [Ubuntu Wiki - Ввод в домен Windows](http://help.ubuntu.ru/wiki/ввод_в_домен_windows)
 3. [PBIS Open - Wiki](https://github.com/BeyondTrust/pbis-open/wiki)

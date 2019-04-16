@@ -42,6 +42,7 @@ docker service create -p 9000:9000 --mount type=bind,source=/var/run/docker.sock
 
 На этом все.
 
-### Дополнительные ссылки:
+### Дополнительные ссылки
+
 1. [Sysadmin.pm - Portainer](https://sysadmin.pm/portainer/)
 2. [GitHub - Portainer](https://github.com/portainer/portainer)

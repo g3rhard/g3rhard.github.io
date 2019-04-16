@@ -24,5 +24,5 @@ aws ec2 describe-regions --profile=PROFILE_NAME --output text
 
 На этом все.
 
-### Дополнительные ссылки:
+### Дополнительные ссылки
 1. [7 Tips – Tuning Command Line History in Bash](https://www.shellhacks.com/tune-command-line-history-bash/)

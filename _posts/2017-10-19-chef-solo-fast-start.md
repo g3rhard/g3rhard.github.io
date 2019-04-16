@@ -85,7 +85,8 @@ knife solo cook myhostname
 
 На этом все.
 
-### Дополнительные ссылки:
+### Дополнительные ссылки
+
 1. Разумеется, больше информации на [оф. сайте](https://docs.chef.io/chef_solo.html).
 2. Небольшим подспорьем являлся репозиторий [macovsky](https://github.com/macovsky/rails-on-chef-solo).
 3. Блог [alxschwarz](https://ru.alxschwarz.com/2012/04/chef-basics-introduction-to-cookbooks/).
