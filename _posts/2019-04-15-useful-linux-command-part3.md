@@ -19,3 +19,4 @@ vim +NUMBERd +wq FILE_NAME
 ### Дополнительные ссылки
 
 1. [LOR - 11414851](https://www.linux.org.ru/forum/admin/11414851)
+2. [Elegant way to remove offending key from known_hosts file](https://coderwall.com/p/xij9gq/elegant-way-to-remove-offending-key-from-known-hosts-file)
