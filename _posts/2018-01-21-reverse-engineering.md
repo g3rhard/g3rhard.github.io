@@ -2,7 +2,7 @@
 layout: post
 title:  "Reverse engineering прошивок устройств"
 date:   2018-01-21 09:00:00 +0800
-categories: new hack 
+categories: new hack
 ---
 
 ***По мотивам [Hackaday - Reverse engineering embedded device firmware](https://hackaday.com/2011/05/30/reverse-engineering-embedded-device-firmware/)***

@@ -13,6 +13,10 @@ curl -F files[]=@FILE_NAME http://VLC_IP/upload.json --progress-bar -o /dev/stdo
 ```sh
 vim +NUMBERd +wq FILE_NAME
 ```
+3. Получить идентификатор приложения в Mac OS:
+```sh
+osascript -e 'id of app "Telegram"'
+```
 
 На этом все.
 

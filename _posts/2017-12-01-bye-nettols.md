@@ -2,7 +2,7 @@
 layout: post
 title:  "Как расстаться с net-tools"
 date:   2017-12-01 09:00:00 +0800
-categories: new hack 
+categories: new hack
 ---
 
 ***По мотивам [статьи на Habrahabr](https://habrahabr.ru/post/320278/).***
@@ -36,13 +36,13 @@ categories: new hack
 
 1. Самое простое - показать IP адреса на интерфейсах:
 ```sh
-ip a # показать все адреса на всех интерфейсах 
+ip a # показать все адреса на всех интерфейсах
 ip -4 a # показать интерфейсы только с IPv4 адресами
 ip -6 a # показать интерфейсы только с IPv6 адресами
 ```
 2. Назначить/удалить c интерфейса IP адрес
 ```sh
-ip a [add/del] {ip_addr/mask} dev {interface} # пример: 
+ip a [add/del] {ip_addr/mask} dev {interface} # пример:
 ip a add 10.0.0.1/24 dev eth0 # добавить адрес на интерфейс eth0
 ip a del 10.0.0.1/24 dev eth0 # удалить адрес с интерфеса eth0
 ```

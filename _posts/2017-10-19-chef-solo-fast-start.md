@@ -4,7 +4,7 @@ title:  "Быстрый старт с Chef Solo"
 date:   2017-10-19 09:00:00 +0800
 categories: chef nix
 ---
- 
+
 ***По мотивам [evtuhovich.ru](http://evtuhovich.ru/blog/2014/03/28/knife-solo/)***
 
 0\. Предварительный этап
@@ -78,7 +78,7 @@ end
 }
 ```
 
-5\. И варим: 
+5\. И варим:
 ```sh
 knife solo cook myhostname
 ```
