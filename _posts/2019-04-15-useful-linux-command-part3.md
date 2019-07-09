@@ -17,10 +17,17 @@ vim +NUMBERd +wq FILE_NAME
 ```sh
 osascript -e 'id of app "Telegram"'
 ```
-
+4. Проверка целостности архивов (например бэкапов):
+```sh
+# tar.gz
+tar -tvzf ARCHIVE.tar.gz >/dev/null && echo "Archive is good!"
+# gz
+gunzip -t ARCHIVE.gz
+```
 На этом все.
 
 ### Дополнительные ссылки
 
 1. [LOR - 11414851](https://www.linux.org.ru/forum/admin/11414851)
 2. [Elegant way to remove offending key from known_hosts file](https://coderwall.com/p/xij9gq/elegant-way-to-remove-offending-key-from-known-hosts-file)
+3. [Как проверить созданный с помощью tar архив](http://itman.in/tar-check-archive/)
