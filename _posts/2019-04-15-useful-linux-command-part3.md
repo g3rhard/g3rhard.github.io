@@ -22,7 +22,7 @@ osascript -e 'id of app "Telegram"'
 # tar.gz
 tar -tvzf ARCHIVE.tar.gz >/dev/null && echo "Archive is good!"
 # gz
-gunzip -t ARCHIVE.gz
+gunzip -t ARCHIVE.gz && echo "Archive is good!"
 ```
 На этом все.
 

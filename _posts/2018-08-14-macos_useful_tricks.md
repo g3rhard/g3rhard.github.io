@@ -39,9 +39,14 @@ killall Dock
 defaults write com.apple.TextEdit RichText -int 0
 ```
 8. Не записывать файлы .DS_Store на сетевые диски и USB:
-```
+```sh
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
+```
+9. Очистка истории посещенных мест в Finder:
+```sh
+defaults delete com.apple.finder GoToField
+defaults delete com.apple.finder GoToFieldHistory
 ```
 
 На этом все.
