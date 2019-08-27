@@ -11,11 +11,15 @@ $ command
 $ sudo !!
 sudo command
 ```
-2. Взять аргумент из предыдущей команды:
+2. Взять все аргументы/последний аргумент из предыдущей команды:
 ```sh
 $ cd /home/user/foo
 $ mkdir !*
 mkdir /home/user/foo
+...
+$ ls -la /etc/hosts
+$ vi !$
+vi /etc/hosts
 ```
 3. Удаляем сервер из .ssh/known_hosts
 ```sh
