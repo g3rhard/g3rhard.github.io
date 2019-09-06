@@ -36,6 +36,10 @@ ncdu -o /tmp/ncdu.results /
 # Открываем отчет
 ncdu -f /tmp/ncdu.results
 ```
+6. Смена расширений для файлов:
+```sh
+for f in *.php5; do mv $f `basename $f .php5`.php; done;
+```
 
 На этом все.
 
