@@ -20,6 +20,30 @@ categories: translate
 
 В идеальном случае, ваш черновик должны рецензировать все SRE, задействованные в процессе решения инциндента, кто сделал свой вклад, и кто вынес для себя уроки. Как минимум двое SRE должны подписать черновик, прежде чем переходить к шагу два, что также потребует как минимум двоих SRE, прежде чем документ будет готов для публикации.
 
+Если ваш postmortem был рецензирован (если это публичный документ), вы можете скопировать его на свою страницу [Statuspage](https://status.hostedgraphite.com/). Держите в уме, что форматирование документа также имеет большое значение, поэтому перед публикацией необходимо проверить, как будет выглядеть документ.
+
+Обязательно убедитесь, что поделились этим документом с остальной (незадействованной в инцинденте) частью команды SRE. То, что вы пишете postmortem будет полезно только в том случае, если все в вашей команде смогут прочитать его, поэтому попросите всех уделить время для его прочтения и, по возможности, отправить обратный отклик.
+
+## Секции
+
+Это [простой шаблон](https://gist.github.com/g3rhard/743f4821589972706ef5bb9c67b242bd) с помощью которого можно сфокусироваться на процессах и содержании больше, чем на структуре самого документа. Ниже будет приведено краткое объяснение каждой секции и некоторые советы касательно написания и примеры того, что нужно в него включить.
+
+### "Краткое описание"
+
+### "Background"
+
+### "Что произошло?"
+
+### "Хронология событий"
+
+### "Что прошло хорошо (получилось сделать)?"
+
+### "Что прошло плохо (не получилось сделать)?"
+
+### "Что мы будем делать в будущем?"
+
+## Вещи, которые нужно держать в уме
+
 *Перевод еще не закончен*
 
 На этом все.
@@ -28,3 +52,10 @@ categories: translate
 
 1. ["It's dead, Jim": How we write an incident postmortem](https://www.hostedgraphite.com/blog/its-dead-jim-how-we-write-an-incident-postmortem)
 2. [Hosted Graphite](https://www.hostedgraphite.com/)
+3. [Chapter 15 of the SRE book](https://landing.google.com/sre/book/chapters/postmortem-culture.html)
+4. ["The infinite hows" - John Allspaw](https://www.oreilly.com/ideas/the-infinite-hows)
+5. [Incidents as we Imagine Them Versus How They Actually Are - John Allspaw (video)](https://www.youtube.com/watch?v=8DtzmV1jiyQ)
+6. [How complex systems fail - Richard Cook](http://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf)
+7. [The Multiple Audiences and Purposes of Post-Incident Reviews](https://www.adaptivecapacitylabs.com/blog/2018/10/08/the-multiple-audiences-and-purposes-of-post-incident-reviews/)
+8. [Some Observations On the Messy Realities of Incident Reviews](https://www.adaptivecapacitylabs.com/blog/2019/06/17/some-observations-on-the-messy-realities-of-incident-reviews/)
+9. [Hindsight and sacrifice decisions](https://www.adaptivecapacitylabs.com/blog/2019/03/03/hindsight-and-sacrifice-decisions/)
