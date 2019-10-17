@@ -20,6 +20,8 @@ alias vlc='/Applications/VLC.app/Contents/MacOS/VLC'
 alias chillout='vlc http://air.radiorecord.ru:805/chil_64 &'
 ```
 
+*Запись еще не закончена*
+
 ### Дополнительные ссылки
 
 1. [30 Handy Bash Shell Aliases For Linux / Unix / Mac OS X](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html)

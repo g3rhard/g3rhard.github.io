@@ -2,7 +2,7 @@
 layout: post
 title:  "Уровни работы системного администратора: Что нужно знать для каждого"
 date:   2019-09-23 09:00:00 +0800
-categories: translate
+categories: translate basic
 ---
 
 Перевод статьи [Sysadmin job levels: What you need to know for each](https://www.redhat.com/sysadmin/job-levels)
