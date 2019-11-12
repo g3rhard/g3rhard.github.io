@@ -32,6 +32,14 @@ brew cask install iterm2
 brew cask install amethyst
 ```
 6. [mpsyt](https://github.com/mps-youtube/mps-youtube) - command line interface для тех, кто слушает музыку с Youtube. Для лучшей работы необходимо создать ключ Yotube API в https://console.developers.google.com/apis/api/youtube.googleapis.com/. Клиент прост, интуитивно понятен, есть возможность просмотра видео, используя [mpv](https://github.com/mpv-player/mpv).
+7. [Dozer](https://github.com/Mortennn/Dozer) - программа для скрытия лишних значков из верхней панели Mac OS, что бы панель выглядела чистой.
+```sh
+brew cask install dozer
+```
+8. [TripMode](https://www.tripmode.ch/) - платная утилита ($), позволяющая ограничивать трафик для любых приложений, помогает в случае использования медленного интернета. Также умеет отключать соединение для приложений при переключении на VPN (правила гибко настраиваются).
+```sh
+brew cask install tripmode
+```
 
 И напоследок небольшой hack, как можно исправить, когда при выполнении brew upgrade получаем ошибку зависимостей:
 ```sh
