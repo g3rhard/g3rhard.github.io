@@ -28,6 +28,14 @@ gunzip -t ARCHIVE.gz && echo "Archive is good!"
 ```sh
 mogrify -format jpg *.heic
 ```
+6. Соединить несколько mp3 файлов (например, аудиокниги) в каталоге в один файл (при условии одинакового битрейта):
+```sh
+# Вариант 1
+cd FOLDER
+cat *.mp3 > ONE_FILE.mp3
+# Вариант 2
+cat file1.mp3 file2.mp3 file3.mp3 > ONE_FILE.mp3
+```
 
 На этом все.
 
