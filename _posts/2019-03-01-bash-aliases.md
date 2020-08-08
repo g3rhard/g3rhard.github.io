@@ -20,7 +20,7 @@ alias vlc='/Applications/VLC.app/Contents/MacOS/VLC'
 alias chillout='vlc http://air.radiorecord.ru:805/chil_64 &'
 ```
 
-*Запись еще не закончена*
+*TODO: Запись еще не закончена*
 
 ### Дополнительные ссылки
 

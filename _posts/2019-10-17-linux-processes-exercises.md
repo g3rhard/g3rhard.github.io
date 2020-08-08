@@ -5,6 +5,8 @@ date:   2019-10-17 09:00:00 +0800
 categories: translate basic nix
 ---
 
+*TODO: Перевод еще не закончен*
+
 Перевод статьи [30 Linux Processes Exercises For Sysadmins](https://devconnected.com/30-linux-processes-exercises-for-sysadmins/)
 
 Вашему вниманию предлагаются вопросы к статье [Linux Processes Explained](https://devconnected.com/understanding-processes-on-linux/).
@@ -102,9 +104,6 @@ $ ls -l
 
 Хотите больше упражнений?
 * [30 Linux Permissions Exercises for Sysadmins](https://devconnected.com/30-linux-permissions-exercises-for-sysadmins/)
-
-
-*Перевод еще не закончен*
 
 На этом все.
 

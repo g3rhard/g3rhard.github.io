@@ -5,7 +5,7 @@ date:   2020-05-06 09:00:00 +0800
 categories: nix cli
 ---
 
-01. Когда нужно разделить развороты внутри файла PDF:
+*1*. Когда нужно разделить развороты внутри файла PDF
 
   ```sh
   # Разделить по вертикали
@@ -14,13 +14,13 @@ categories: nix cli
   mutool poster -y 2 source.pdf out.pdf
   ```
 
-02. Обновление пакетов pip3:
+*2*. Обновление пакетов pip3
 
   ```sh
   pip3 list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip3 install -U
   ```
 
-03. Поиск источника SYN атаки:
+*3*. Поиск источника SYN атаки
 
   ```sh
   netstat -n -p | grep SYN_RECV | wc -l

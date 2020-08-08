@@ -7,7 +7,7 @@ categories: nix cli
 
 Не так давно, решил попробовать вместо L2TP VPN относительно новый (старый) протокол WireGuard.
 
-01. На сервере, на котором будем использовать Wireguard (я использовал образ Docker linuxserver/docker-wireguard):
+*1*. На сервере, на котором будем использовать Wireguard (я использовал образ Docker linuxserver/docker-wireguard):
 
   * Можно использовать следующий docker-compose:
 
@@ -44,7 +44,7 @@ categories: nix cli
     doocker-compose restart
     ```
 
-02. Настройка сети в Orange Pi:
+*2*. Настройка сети в Orange Pi:
 
   * Настраиваем параметры ядра для форвардинга пакетов:
 
@@ -57,13 +57,13 @@ categories: nix cli
   * Устанавливаем статический IP, это можно сделать либо на роутере (в настройках DHCP сервера), либо используя утилиту armbian-config на OrangePI
 
 
-03. Устанавливаем пакет Wireguard на OrangePI (пакет представлен в оф. репозиториях Debian):
+*3*. Устанавливаем пакет Wireguard на OrangePI (пакет представлен в оф. репозиториях Debian):
 
   ```sh
   sudo apt install wireguard
   ```
 
-04. Используя полученные с сервера данные, создаем конфигурацию для клиента WireGuard на OrangePI:
+*4*. Используя полученные с сервера данные, создаем конфигурацию для клиента WireGuard на OrangePI:
 
   ```sh
   cat /etc/wireguard/wg0.conf
@@ -82,7 +82,7 @@ categories: nix cli
   PersistentKeepalive = 25
   ```
 
-05. Если все будет корректно настроено, то соединение поднимется по команде (на OrangePI):
+*5*. Если все будет корректно настроено, то соединение поднимется по команде (на OrangePI):
 
   ```sh
   sudo service wg-quick@wg0 start
