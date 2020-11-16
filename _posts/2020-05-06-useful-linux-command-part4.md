@@ -28,6 +28,23 @@ categories: nix cli
   netstat -n -p | grep SYN_REC | awk '{print $5}' | awk -F: '{print $1}'
   ```
 
+*4*. Проверка скорости загрузки сайта, используя curl
+
+  ```sh
+  curl -s -w '\nTesting Website Response Time for: %{url_effective}\n\nLookup Time:\t\t%{time_namelookup}\nConnect Time:\t\t%{time_connect}\nPre-transfer Time:\t%{time_pretransfer}\nStart-transfer Time:\t%{time_starttransfer}\n\nTotal Time:\t\t%{time_total}\n' -o /dev/null https://SITE_URL
+  ```
+
+*5*. Генерация known_hosts файла
+
+  ```sh
+  ssh-keygen -R [hostname]
+  ssh-keygen -R [ip_address]
+  ssh-keygen -R [hostname],[ip_address]
+  ssh-keyscan -H [hostname],[ip_address] >> ~/.ssh/known_hosts
+  ssh-keyscan -H [ip_address] >> ~/.ssh/known_hosts
+  ssh-keyscan -H [hostname] >> ~/.ssh/known_hosts
+  ```
+
 На этом все.
 
 ### Дополнительные ссылки
@@ -35,3 +52,4 @@ categories: nix cli
 1. [LOR - 12967886](https://www.linux.org.ru/forum/talks/12967886)
 2. [SO - How to upgrade all Python packages with pip?](https://stackoverflow.com/questions/2720014/how-to-upgrade-all-python-packages-with-pip)
 3. [VPS.UA - Как посмотреть количество подключений к серверу](https://vps.ua/wiki/view-connections-server/)
+4. [SF - Can I automatically add a new host to known_hosts?](https://serverfault.com/questions/132970/can-i-automatically-add-a-new-host-to-known-hosts)

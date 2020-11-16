@@ -16,7 +16,7 @@
 title: G3rhard Blog
 #email: kiriru.trofimov@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  IT from Königsberg
+  IT from Gdańsk
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://g3rhard.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username:
