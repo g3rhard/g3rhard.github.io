@@ -27,4 +27,4 @@ That's all.
 ### Additional links
 
 1. [ShellCheck](https://www.shellcheck.net/)
-2. [GitHub - ShellCheck](https://github.com/koalaman/shellcheck)
+2. [Github - ShellCheck](https://github.com/koalaman/shellcheck)

@@ -97,5 +97,5 @@ categories: nix cli
 
 1. [Debian, nat. Раздаём интернет с debian. Шлюз на debian — часть 2](https://debian.pro/249)
 2. [Armbian configuration utility](https://docs.armbian.com/User-Guide_Armbian-Config/)
-3. [GitHub - linuxserver/wireguard](https://github.com/linuxserver/docker-wireguard)
+3. [Github - linuxserver/wireguard](https://github.com/linuxserver/docker-wireguard)
 4. [iVPN - Wireguard kill-switch](https://www.ivpn.net/knowledgebase/238/Linux---WireGuard-Kill-switch.html)

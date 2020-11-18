@@ -26,5 +26,5 @@ PS: Судя по незакрытому [issue](https://github.com/donnemartin/
 
 ### Additional links
 
-1. [GitHub: The System Design Primer](https://github.com/donnemartin/system-design-primer)
+1. [Github: The System Design Primer](https://github.com/donnemartin/system-design-primer)
 2. [Habr - Архитектура ИТ решений. Часть 1. Архитектура предприятия](https://habr.com/ru/post/347204/)

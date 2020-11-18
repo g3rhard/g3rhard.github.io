@@ -18,4 +18,4 @@ find . -iname "*.mp3" -type f -exec ffmpeg -i {} -codec:a libmp3lame -qscale:a 5
 
 ### Дополнительные ссылки
 1. [Вырезать фрагмент из видео. FFmpeg](http://www.kompx.com/ru/vyrezat-fragment-iz-video-ffmpeg.htm)
-2. [GitHub - Avidemux](https://github.com/mean00/avidemux2)
+2. [Github - Avidemux](https://github.com/mean00/avidemux2)
