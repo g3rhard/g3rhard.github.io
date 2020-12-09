@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "English Training - EP05 - Space Opera"
+title:  "English Training - EP06 - Space Opera"
 date:   2020-02-11 13:00:00 +0800
 categories: english book
 ---

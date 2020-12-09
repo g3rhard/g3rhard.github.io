@@ -2,7 +2,7 @@
 layout: post
 title:  "Как поддерживать баланс между работой и личными проектами"
 date:   2020-11-19 09:00:00 +0800
-categories: translate
+categories: [translate]
 ---
 
 Перевод статьи [How Do I Balance Work With My Side Projects](https://dev.to/catalinmpit/how-do-i-balance-work-with-my-side-projects-5gm0)

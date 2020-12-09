@@ -14,6 +14,7 @@
 
       <div class="footer-col footer-col-2">
         <ul class="social-media-list">
+
           {% if site.github_username %}
           <li>
             {% include icon-github.html username=site.github_username %}
@@ -31,6 +32,7 @@
 
       <div class="footer-col footer-col-3">
         <p>{{ site.description | escape }}</p>
+        <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
       </div>
 
     </div>
@@ -46,5 +48,8 @@
 
     gtag('config', 'UA-125136651-1');
   </script>
+
+  <!-- Goatcounter -->
+  <script data-goatcounter="https://g3rhard.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
 </footer>
