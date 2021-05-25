@@ -17,6 +17,7 @@ layout: default
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
   </span>
+  {% include reading_time.html %}
   <div class="article">
     <article>
       {{ content }}
