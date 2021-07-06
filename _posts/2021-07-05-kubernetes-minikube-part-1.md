@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Kubernetes: Подготовка окружения - часть 1"
+title:      "Kubernetes: Исследование с помощью Minikube - часть 1"
 date:       2021-07-05 19:00:00 +0800
 categories: k8s kubernetes minikube
 ---
@@ -27,14 +27,14 @@ categories: k8s kubernetes minikube
 
 * Устанавливаем зависимости:
 
-** [minikube](https://minikube.sigs.k8s.io/docs/start/)
+*  * [minikube](https://minikube.sigs.k8s.io/docs/start/)
 
   ```sh
   curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
   sudo install minikube-linux-amd64 /usr/local/bin/minikube
   ```
 
-** [ngrok](https://ngrok.com/download)
+*  * [ngrok](https://ngrok.com/download)
 
   ```sh
   wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
@@ -147,7 +147,6 @@ EOF
 * Теперь нужно получить доступ к сервису, который находится внутри minikube:
 
   ```sh
-  #
   minikube service --url php-sample-app -n developer
   ./ngrok http $(minikube ip):SERVICE_PORT
   ```
@@ -184,6 +183,13 @@ spec:
                   number: 80
 EOF
 ```
+
+Аналогично получаем доступ через Ingress, только теперь нам не нужно использовать рандомный порт:
+
+  ```sh
+  kubectl get ingress -n developer
+  ./ngrok http $(minikube ip):80
+  ```
 
 На этом с первой частью мы закончили. Вне заметки осталась сборка docker image в GitHub Actions, публикация image в hub.docker.com и ручное обновление Deployment. Как это было реализовано в моем случае, можно посмотреть в репозитории [g3rhard/php-sample-app](https://github.com/g3rhard/php-sample-app).
 
