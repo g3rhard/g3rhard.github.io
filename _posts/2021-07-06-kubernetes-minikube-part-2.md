@@ -212,7 +212,7 @@ REVISION: 2
   helm rollback -n developer php-sample-app 2
   ```
 
-* И простой момент - удаление
+* И простой момент - удаление:
 
 ```sh
 helm delete -n developer php-sample-app
