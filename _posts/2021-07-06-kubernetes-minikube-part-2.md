@@ -21,6 +21,12 @@ image: g3rhard/php-sample-app:467794
   k9s --kubeconfig cluster-config.txt
   ```
 
+* Проверить, как будет выглядеть наш общий шаблон helm chart (об этом будет чуть ниже):
+
+```sh
+helm template ./helm-php-sample-app
+```
+
 Итак, приступим.
 
 ## Часть 2. Упрощаем deploy приложения
