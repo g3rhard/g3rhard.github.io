@@ -197,6 +197,28 @@ REVISION: 2
 
 Действительно, есть с чем поздравить. На этом с этой частью можно заканчивать.
 
+После завершения, еще можно было проверить две операции - rollback и delete:
+
+* Rollback:
+  * Возвращаемся на первую версию нашего приложения (helm chart), где 1 - это номер из параметра "REVISION: 1", который можно найти в листингах выше.
+
+  ```sh
+  helm rollback -n developer php-sample-app 1
+  ```
+
+  * И возвращаемся на вторую версию нашего приложения (REVISION: 2)
+
+  ```sh
+  helm rollback -n developer php-sample-app 2
+  ```
+
+* И простой момент - удаление
+
+```sh
+helm delete -n developer php-sample-app
+release "php-sample-app" uninstalled
+```
+
 That's all.
 
 ### Additional links
