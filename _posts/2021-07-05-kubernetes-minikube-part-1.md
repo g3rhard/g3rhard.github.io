@@ -26,15 +26,14 @@ categories: k8s kubernetes minikube
   ```
 
 * Устанавливаем зависимости:
-
-*  * [minikube](https://minikube.sigs.k8s.io/docs/start/)
+  * [minikube](https://minikube.sigs.k8s.io/docs/start/)
 
   ```sh
   curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
   sudo install minikube-linux-amd64 /usr/local/bin/minikube
   ```
 
-*  * [ngrok](https://ngrok.com/download)
+  * [ngrok](https://ngrok.com/download)
 
   ```sh
   wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
