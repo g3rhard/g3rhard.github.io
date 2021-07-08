@@ -38,7 +38,7 @@ helm template ./helm-php-sample-app
   ```sh
   git clone git@github.com:g3rhard/helm-php-sample-app.git
   helm create helm-php-sample-app
-  cd helm create helm-php-sample-app
+  cd helm-php-sample-app
   ```
 
 * Структура каталога выглядит так:
