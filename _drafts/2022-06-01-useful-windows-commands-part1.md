@@ -33,8 +33,8 @@ categories: windows cli
   ```powershell
   # Get modules list
   Get-Module -ListAvailable
-  # Save module to another place
-  Save-Module -Name Module_name -Path PATH_TO_NEW_FOLDER -Repository PSGallery
+  # Save module to another place (PATH_TO_NEW_MODULES_FOLDER)
+  Save-Module -Name Module_name -Path PATH_TO_NEW_MODULES_FOLDER -Repository PSGallery
   ```
 
 *5*. Work with Powershell profile:
@@ -46,6 +46,12 @@ categories: windows cli
   }
   # Edit profile
   notepad $profile
+  ```
+
+*6*. Add custom path for modules in Powershell $profile:
+
+  ```powershell
+  $env:PSModulePath = ((@("PATH_TO_NEW_MODULES_FOLDER") + ($env:PSModulePath -split ";")) -join ";")
   ```
 
 That's all.
