@@ -2,7 +2,7 @@
 layout: post
 title:  "Useful Windows commands - Part 1"
 date:   2022-06-01 09:00:00 +0800
-categories: windows cli
+categories: windows cli powershell
 ---
 
 *1*. Get powershell history:
@@ -27,7 +27,7 @@ categories: windows cli
   ```powershell
   (Get-Command COMMAND_NAME).Parameters
   ```
-  
+
 *4*. Work with Powershell modules:
 
   ```powershell
