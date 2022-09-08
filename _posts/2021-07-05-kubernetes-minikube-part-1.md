@@ -59,131 +59,133 @@ categories: k8s kubernetes minikube
 
 * Добавляем Namespace (подходящие аналоги - каталог в фс, организация) для нашего проекта:
 
-```sh
-cat <<EOF | kubectl apply -f -
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: developer
-  labels:
+  ```sh
+  cat <<EOF | kubectl apply -f -
+  apiVersion: v1
+  kind: Namespace
+  metadata:
     name: developer
-EOF
-```
+    labels:
+      name: developer
+  EOF
+  ```
 
 * Описываем Deployment (что и где мы запускаем):
 
-```sh
-cat <<EOF | kubectl apply -n developer -f -
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: php-sample-app
-  labels:
-    app: php-sample-app
-spec:
-  replicas: 3
-  minReadySeconds: 15
-  strategy:
-    type: RollingUpdate
-    rollingUpdate:
-      maxUnavailable: 1
-      maxSurge: 1
-  selector:
-    matchLabels:
-      app: php-sample-app
-  template:
-    metadata:
-      labels:
-        app: php-sample-app
-    spec:
-      containers:
-      - name: php-sample-app
-        image: g3rhard/php-sample-app:467794
-        ports:
-        - containerPort: 80
-EOF
-```
-
-* Создаем простой Service NodePort (который описывает, как можно достучаться до нашего приложения):
-
-```sh
-cat <<EOF | kubectl apply -n developer -f -
-apiVersion: v1
-kind: Service
-metadata:
-  name: php-sample-app
-  labels:
+  ```sh
+  cat <<EOF | kubectl apply -n developer -f -
+  apiVersion: apps/v1
+  kind: Deployment
+  metadata:
     name: php-sample-app
-spec:
-  type: NodePort
-  ports:
-    - port: 80
-      name: http
-  selector:
-    app: php-sample-app
-EOF
-```
+    labels:
+      app: php-sample-app
+  spec:
+    replicas: 3
+    minReadySeconds: 15
+    strategy:
+      type: RollingUpdate
+      rollingUpdate:
+        maxUnavailable: 1
+        maxSurge: 1
+    selector:
+      matchLabels:
+        app: php-sample-app
+    template:
+      metadata:
+        labels:
+          app: php-sample-app
+      spec:
+        containers:
+        - name: php-sample-app
+          image: g3rhard/php-sample-app:467794
+          ports:
+          - containerPort: 80
+  EOF
+  ```
 
-* (Либо) Создаем Service LoadBalancer:
+* Создаем простой сервис чтобы достучаться до нашего приложения:
+  * Вариант 1 - Service NodePort:
 
-```sh
-cat <<EOF | kubectl apply -n developer -f -
-apiVersion: v1
-kind: Service
-metadata:
-  name: php-sample-app-lb
-spec:
-  type: LoadBalancer
-  ports:
-  - port: 80
-    protocol: TCP
-    targetPort: 80
-  selector:
-    app: php-sample-app
-EOF
-```
+    ```sh
+    cat <<EOF | kubectl apply -n developer -f -
+    apiVersion: v1
+    kind: Service
+    metadata:
+      name: php-sample-app
+      labels:
+        name: php-sample-app
+    spec:
+      type: NodePort
+      ports:
+        - port: 80
+          name: http
+      selector:
+        app: php-sample-app
+    EOF
+    ```
+
+  * Вариант 2 - создаем Service LoadBalancer:
+
+    ```sh
+    cat <<EOF | kubectl apply -n developer -f -
+    apiVersion: v1
+    kind: Service
+    metadata:
+      name: php-sample-app-lb
+    spec:
+      type: LoadBalancer
+      ports:
+      - port: 80
+        protocol: TCP
+        targetPort: 80
+      selector:
+        app: php-sample-app
+    EOF
+    ```
 
 * Теперь нужно получить доступ к сервису, который находится внутри minikube:
+  * Вариант 1:
 
-  ```sh
-  minikube service --url php-sample-app -n developer
-  ./ngrok http $(minikube ip):SERVICE_PORT
-  ```
+    ```sh
+    minikube service --url php-sample-app -n developer
+    ./ngrok http $(minikube ip):SERVICE_PORT
+    ```
 
-либо (с помощью Service LoadBalancer):
+  * Вариант 2 - с помощью Service LoadBalancer:
 
-  ```sh
-  minikube service php-sample-app-lb -n developer
-  ./ngrok http $(minikube ip):SERVICE_PORT
-  ```
+    ```sh
+    minikube service php-sample-app-lb -n developer
+    ./ngrok http $(minikube ip):SERVICE_PORT
+    ```
 
 * Также можно немного усложнить схему и добавить тип объекта Ingress (по аналогии - как Nginx):
 
-```sh
-cat <<EOF | kubectl apply -n developer -f -
----
-apiVersion: networking.k8s.io/v1
-kind: Ingress
-metadata:
-  name: php-sample-app-ingress
-  annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /$1
-spec:
-  rules:
-    - host: php-sample-app.com
-      http:
-        paths:
-          - path: /
-            pathType: Prefix
-            backend:
-              service:
-                name: php-sample-app
-                port:
-                  number: 80
-EOF
-```
+  ```sh
+  cat <<EOF | kubectl apply -n developer -f -
+  ---
+  apiVersion: networking.k8s.io/v1
+  kind: Ingress
+  metadata:
+    name: php-sample-app-ingress
+    annotations:
+      nginx.ingress.kubernetes.io/rewrite-target: /$1
+  spec:
+    rules:
+      - host: php-sample-app.com
+        http:
+          paths:
+            - path: /
+              pathType: Prefix
+              backend:
+                service:
+                  name: php-sample-app
+                  port:
+                    number: 80
+  EOF
+  ```
 
-Аналогично получаем доступ через Ingress, только теперь нам не нужно использовать рандомный порт:
+* Аналогично получаем доступ через Ingress, только теперь нам не нужно использовать рандомный порт:
 
   ```sh
   kubectl get ingress -n developer
