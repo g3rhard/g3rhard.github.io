@@ -57,7 +57,7 @@ categories: k8s kubernetes minikube
 
 ## Часть 1. Запуск минимального приложения PHP
 
-* Добавляем Namespace (подходящие аналоги - каталог в фс, организация) для нашего проекта:
+* Добавляем Namespace (или отдельное окружение) для нашего проекта:
 
   ```sh
   cat <<EOF | kubectl apply -f -
@@ -70,7 +70,7 @@ categories: k8s kubernetes minikube
   EOF
   ```
 
-* Описываем Deployment (что и где мы запускаем):
+* Описываем Deployment (что и где мы запускаем), указывая созданный Namespace "developer":
 
   ```sh
   cat <<EOF | kubectl apply -n developer -f -
@@ -179,18 +179,33 @@ categories: k8s kubernetes minikube
               pathType: Prefix
               backend:
                 service:
-                  name: php-sample-app
+                  name: php-sample-app # or name: php-sample-app-lb
                   port:
                     number: 80
   EOF
   ```
 
 * Аналогично получаем доступ через Ingress, только теперь нам не нужно использовать рандомный порт:
+  * Вариант 1 - Через ngrok (тут также потребуется подменить DNS запись для доступа к нашему сайту)
 
-  ```sh
-  kubectl get ingress -n developer
-  ./ngrok http $(minikube ip):80
-  ```
+    ```sh
+    kubectl get ingress -n developer
+    ./ngrok http $(minikube ip):80
+    ```
+
+  * Вариант 2: Bash
+
+    ```sh
+    minikube tunnel # for Ingress
+    curl -H "Host: php-sample-app.com" http://127.0.0.1
+    ```
+
+  * Вариант 3: Powershell
+
+    ```PowerShell
+    minikube tunnel # for Ingress
+    $(Invoke-WebRequest "http://127.0.0.1" -Headers @{'Host'= 'php-sample-app.com'}).Content
+    ```
 
 На этом с первой частью мы закончили. Вне заметки осталась сборка docker image в GitHub Actions, публикация image в hub.docker.com и ручное обновление Deployment. Как это было реализовано в моем случае, можно посмотреть в репозитории [g3rhard/php-sample-app](https://github.com/g3rhard/php-sample-app).
 
