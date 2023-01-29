@@ -42,6 +42,21 @@ categories: nix cli
   docker ps -a | perl -ne '@cols = split /\s{2,}/, $_; printf "%30s %20s %20s\n", $cols[1], $cols[3], $cols[4], $cols[6]'
   ```
 
+*7*. Workaround когда адрес якобы занят контейнером Docker
+
+  ```sh
+  sudo service docker stop
+  sudo rm /var/lib/docker/network/files/local-kv.db
+  sudo service docker start
+  ```
+
+*8*. Найти ссылку на релиз OpenJDK с GitHub, используя API и jq:
+
+  ```sh
+  REPO="adoptium/temurin8-binaries"
+  curl -s https://api.github.com/repos/$REPO/releases/latest | jq -r '.assets[] | select(.name | contains("x64_linux") and contains("jre") and endswith(".tar.gz")) | .browser_download_url'
+  ```
+
 На этом все.
 
 ### Дополнительные ссылки
