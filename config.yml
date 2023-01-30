@@ -1,0 +1,86 @@
+baseURL: "https://g3rhard.github.io/"
+languageCode: "en-us"
+title: "G3rhard"
+paginate: 5
+theme: "PaperMod"
+rssLimit: 10
+
+googleAnalytics: "UA-125136651-1"
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: G3rhard blog
+  description: "IT from Gdańsk"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Me
+  # author: ["Me", "You"] # multiple authors
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Welcome to my blog
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/g3rhard"
+    - name: buymeacoffee
+      url: "https://buymeacoffee.com/g3rhard"
+    - name: linkedin
+      url: "https://linkedin.com/g3rhard"
+    - name: Rss
+      url: "index.xml"
+
+languages:
+  en:
+      languageName: "English"
+      weight: 1
+      taxonomies:
+        category: categories
+        tag: tags
+        series: series
+      menu:
+        main:
+          - name: Archive
+            url: archives
+            weight: 5
+          - name: About
+            url: about
+            weight: 10
+
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
