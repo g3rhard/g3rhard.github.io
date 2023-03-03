@@ -138,11 +138,11 @@ static
 ```yaml
 params:
   assets:
-    favicon: "/favicon.ico"
-    favicon16x16:  "/favicon-16x16.png"
-    favicon32x32:  "/favicon-32x32.png"
-    apple_touch_icon:  "/apple-touch-icon.png"
-    safari_pinned_tab:  "/safari-pinned-tab.svg"
+    favicon: "/img/favicon.ico"
+    favicon16x16: "/img/favicon-16x16.png"
+    favicon32x32: "/img/favicon-32x32.png"
+    apple_touch_icon: "/img/apple-touch-icon.png"
+    safari_pinned_tab: "/img/safari-pinned-tab.svg"
 ```
 
 И последний штрих - добавляем .gitignore:
