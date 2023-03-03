@@ -122,6 +122,29 @@ markup:
     # style: monokai
 ```
 
+Копируем файлы favicon в каталог static и добавляем конфигурацию в config.yml:
+
+```sh
+❯ tree static
+static
+└── img
+   ├── apple-touch-icon.png
+   ├── favicon-16x16.png
+   ├── favicon-32x32.png
+   ├── favicon.ico
+   └── safari-pinned-tab.svg
+```
+
+```yaml
+params:
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16:  "/favicon-16x16.png"
+    favicon32x32:  "/favicon-32x32.png"
+    apple_touch_icon:  "/apple-touch-icon.png"
+    safari_pinned_tab:  "/safari-pinned-tab.svg"
+```
+
 И последний штрих - добавляем .gitignore:
 
 ```sh
@@ -146,3 +169,5 @@ That's all.
 
 1. [Hugo](https://gohugo.io/about/)
 2. [github - adityatelange/hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod)
+3. [Favicon Generator](https://realfavicongenerator.net)
+4. [favicon.io](https://favicon.io)
