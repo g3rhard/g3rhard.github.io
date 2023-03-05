@@ -52,6 +52,6 @@ categories: [translate]
 ## Дополнительные ссылки
 
 1. [dev.to - How Do I Balance Work With My Side Projects](https://dev.to/catalinmpit/how-do-i-balance-work-with-my-side-projects-5gm0)
-2. [reddit - /r/SideProject](https://www.reddit.com/r/SideProject/)
+2. [reddit - /r/SideProject](https://www.reddit.com/r/SideProject)
 3. [Hacker New - Learning at work is work, and we must make space for it](https://news.ycombinator.com/item?id=21762640)
-4. [Learning for a Living](https://sloanreview.mit.edu/article/learning-for-a-living/)
+4. [Learning for a Living](https://sloanreview.mit.edu/article/learning-for-a-living)

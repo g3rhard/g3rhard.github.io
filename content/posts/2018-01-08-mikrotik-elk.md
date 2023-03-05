@@ -33,7 +33,7 @@ match => {
 
 ## Дополнительные ссылки
 
-1. [Mikrotik - Wiki](https://wiki.mikrotik.com/)
+1. [Mikrotik - Wiki](https://wiki.mikrotik.com)
 2. [Elastic - GROK](https://www.elastic.co/guide/en/logstash/current/plugins-filters-grok.html)
 3. [Grok Debug Test App](http://grokdebug.herokuapp.com)
-4. [Logz.io - GROK]((https://logz.io/blog/logstash-grok/)
+4. [Logz.io - GROK]((https://logz.io/blog/logstash-grok)

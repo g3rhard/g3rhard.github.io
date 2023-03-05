@@ -53,8 +53,8 @@ rsync -avzh /FOLDER1/source /FOLDER2/
 
 ## Дополнительные ссылки
 
-1. [7 Tips – Tuning Command Line History in Bash](https://www.shellhacks.com/tune-command-line-history-bash/)
-2. [КОПИРОВАНИЕ ДАННЫХ С ПОМОЩЬЮ RSYNC](https://www.baf.ru/2008/02/13/kopirovanie-dannyh-s-pomoshhju-rsync/)
-3. [Bash One-Liners](http://www.bashoneliners.com/)
-4. [Rsync (Remote Sync): 10 Practical Examples of Rsync Command in Linux](https://www.tecmint.com/rsync-local-remote-file-synchronization-commands/)
+1. [7 Tips – Tuning Command Line History in Bash](https://www.shellhacks.com/tune-command-line-history-bash)
+2. [КОПИРОВАНИЕ ДАННЫХ С ПОМОЩЬЮ RSYNC](https://www.baf.ru/2008/02/13/kopirovanie-dannyh-s-pomoshhju-rsync)
+3. [Bash One-Liners](http://www.bashoneliners.com)
+4. [Rsync (Remote Sync): 10 Practical Examples of Rsync Command in Linux](https://www.tecmint.com/rsync-local-remote-file-synchronization-commands)
 5. [SO - How to get a Docker container's IP address from the host?](https://stackoverflow.com/questions/17157721/how-to-get-a-docker-containers-ip-address-from-the-host)

@@ -33,6 +33,6 @@ That's all.
 ## Additional links
 
 1. [Wai Loon - Generate Standalone SSL Certificate with Let’s Encrypt for AWS Route 53 using Docker](https://medium.com/w-logs/generate-standalone-ssl-certificate-with-lets-encrypt-for-aws-route-53-25a30ca3062)
-2. [Automating Certificates with Certbot in Docker](https://coderevolve.com/certbot-in-docker/)
+2. [Automating Certificates with Certbot in Docker](https://coderevolve.com/certbot-in-docker)
 3. [Let's Encrypt Wildcard Certificate Configuration with AWS Route 53](https://medium.com/prog-code/lets-encrypt-wildcard-certificate-configuration-with-aws-route-53-9c15adb936a7
 )

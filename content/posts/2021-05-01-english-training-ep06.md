@@ -14,4 +14,4 @@ That's all.
 
 ## Additional links
 
-1. [Amazon - Embers of War (Gareth L. Powell)](https://www.amazon.com/Embers-War-Gareth-L-Powell/dp/1785655183/)
+1. [Amazon - Embers of War (Gareth L. Powell)](https://www.amazon.com/Embers-War-Gareth-L-Powell/dp/1785655183)

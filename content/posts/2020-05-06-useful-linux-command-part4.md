@@ -51,5 +51,5 @@ categories: nix cli
 
 1. [LOR - 12967886](https://www.linux.org.ru/forum/talks/12967886)
 2. [SO - How to upgrade all Python packages with pip?](https://stackoverflow.com/questions/2720014/how-to-upgrade-all-python-packages-with-pip)
-3. [VPS.UA - Как посмотреть количество подключений к серверу](https://vps.ua/wiki/view-connections-server/)
+3. [VPS.UA - Как посмотреть количество подключений к серверу](https://vps.ua/wiki/view-connections-server)
 4. [SF - Can I automatically add a new host to known_hosts?](https://serverfault.com/questions/132970/can-i-automatically-add-a-new-host-to-known-hosts)

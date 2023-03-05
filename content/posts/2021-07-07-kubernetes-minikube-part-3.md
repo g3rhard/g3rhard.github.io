@@ -151,5 +151,5 @@ That's all.
 
 1. [helm.sh - Chart Releaser Action to Automate GitHub Page Charts](https://helm.sh/docs/howto/chart_releaser_action/#github-actions-workflow)
 2. [medium - Create a public Helm chart repository with GitHub Pages](https://medium.com/@mattiaperi/create-a-public-helm-chart-repository-with-github-pages-49b180dbb417)
-3. [harness.io - Turning a GitHub Repo Into a Helm Chart Repo](https://harness.io/blog/devops/helm-chart-repo/)
+3. [harness.io - Turning a GitHub Repo Into a Helm Chart Repo](https://harness.io/blog/devops/helm-chart-repo)
 4. [baeldung - Using Helm and Kubernetes](https://www.baeldung.com/ops/kubernetes-helm)

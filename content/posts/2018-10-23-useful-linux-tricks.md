@@ -44,7 +44,7 @@ for f in *.php5; do mv $f `basename $f .php5`.php; done;
 На этом все.
 
 ## Дополнительные ссылки
-1. [https://xakep.ru/2017/05/18/cli-console-tips/](https://xakep.ru/2017/05/18/cli-console-tips/)
-2. [WIREHIVE - 5 top tips for reviewing your Postfix mail queue](https://www.wirehive.com/thoughts/5-top-tips-reviewing-postfix-mail-queue/)
-3. [Анализ использования диска при помощи ncdu](http://ashep.org/2013/analiz-ispolzovaniya-diska-pri-pomoshhi-ncdu/)
-4. [Shell command to bulk change file extensions in a directory (Linux)](https://www.heatware.net/linux-unix/change-file-extensions-directory-linux/)
+1. [https://xakep.ru/2017/05/18/cli-console-tips/](https://xakep.ru/2017/05/18/cli-console-tips)
+2. [WIREHIVE - 5 top tips for reviewing your Postfix mail queue](https://www.wirehive.com/thoughts/5-top-tips-reviewing-postfix-mail-queue)
+3. [Анализ использования диска при помощи ncdu](http://ashep.org/2013/analiz-ispolzovaniya-diska-pri-pomoshhi-ncdu)
+4. [Shell command to bulk change file extensions in a directory (Linux)](https://www.heatware.net/linux-unix/change-file-extensions-directory-linux)

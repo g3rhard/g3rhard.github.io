@@ -48,7 +48,7 @@ volumes:
 
 ## Дополнительные ссылки
 
-1. [Scott Lowe Blog - Quick intro to Consul](https://blog.scottlowe.org/2015/02/06/quick-intro-to-consul/)
-2. [Ксакеп - Consul](https://xakep.ru/2016/04/18/consul/)
-3. [EAX - Consul](http://eax.me/consul/)
-4. [Sreenivas Makam's Blog - Service Discovery with Consul](https://sreeninet.wordpress.com/2016/04/17/service-discovery-with-consul/)
+1. [Scott Lowe Blog - Quick intro to Consul](https://blog.scottlowe.org/2015/02/06/quick-intro-to-consul)
+2. [Ксакеп - Consul](https://xakep.ru/2016/04/18/consul)
+3. [EAX - Consul](http://eax.me/consul)
+4. [Sreenivas Makam's Blog - Service Discovery with Consul](https://sreeninet.wordpress.com/2016/04/17/service-discovery-with-consul)

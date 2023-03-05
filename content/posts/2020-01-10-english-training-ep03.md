@@ -14,4 +14,4 @@ That's all.
 ## Additional links
 
 1. [Site Reliability Engineering](https://landing.google.com/sre/sre-book/toc/index.html)
-2. [The Site Reliability Workbook](https://landing.google.com/sre/workbook/toc/)
+2. [The Site Reliability Workbook](https://landing.google.com/sre/workbook/toc)

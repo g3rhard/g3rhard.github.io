@@ -9,8 +9,8 @@ categories: knowledge
 
 Вот список рассылок, которые я нашел для себя интересными:
 
-* [cron.weekly](https://ma.ttias.be/cronweekly/)
-* [Last week in AWS](https://www.lastweekinaws.com/)
+* [cron.weekly](https://ma.ttias.be/cronweekly)
+* [Last week in AWS](https://www.lastweekinaws.com)
 * [SRE WEEKLY](https://sreweekly.com)
 * [Devops Weekly](https://www.devopsweekly.com)
 
@@ -23,13 +23,13 @@ categories: knowledge
 
 Ну и конечно, можно быть подписанным на RSS (наверно в 2020 все еще актуально) следующих сайтов:
 
-* [Hacker News](https://news.ycombinator.com/)
+* [Hacker News](https://news.ycombinator.com)
 * [corey.tech](https://corey.tech)
 * [linux-notes](https://linux-notes.org)
 * [rtfm.co.ua](https://rtfm.co.ua)
 * [devconnected](https://devconnected.com)
 * [lobste.rs](https://lobste.rs)
-* [RedHat - Enable Sysadmin](https://www.redhat.com/sysadmin/)
+* [RedHat - Enable Sysadmin](https://www.redhat.com/sysadmin)
 
 От себя лично рекомендую [feedly](https://feedly.com) как RSS клиент - его бесплатного функционала хватает за глаза, относительно удобно читать и сохранять статьи. Из минусов - нет удобного (бесплатного) поиска.
 
@@ -51,6 +51,6 @@ categories: knowledge
 
 ## Дополнительные ссылки
 
-1. [reddit - r/devops - How do you guys stay up-to-date?](https://www.reddit.com/r/devops/comments/j3t2cj/how_do_you_guys_stay_uptodate/)
+1. [reddit - r/devops - How do you guys stay up-to-date?](https://www.reddit.com/r/devops/comments/j3t2cj/how_do_you_guys_stay_uptodate)
 2. [dev.to - One Way To Stay Up To Date As Developer](https://dev.to/catalinmpit/one-way-to-stay-up-to-date-as-developer-1pf3)
-3. [reddit - r/aws - Q: how do you keep up with AWS new announcements?](https://www.reddit.com/r/aws/comments/g0itdu/q_how_do_you_keep_up_with_aws_new_announcements/)
+3. [reddit - r/aws - Q: how do you keep up with AWS new announcements?](https://www.reddit.com/r/aws/comments/g0itdu/q_how_do_you_keep_up_with_aws_new_announcements)

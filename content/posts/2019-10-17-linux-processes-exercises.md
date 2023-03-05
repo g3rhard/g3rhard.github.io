@@ -7,9 +7,9 @@ categories: translate basic nix
 
 *TODO: Перевод еще не закончен*
 
-Перевод статьи [30 Linux Processes Exercises For Sysadmins](https://devconnected.com/30-linux-processes-exercises-for-sysadmins/)
+Перевод статьи [30 Linux Processes Exercises For Sysadmins](https://devconnected.com/30-linux-processes-exercises-for-sysadmins)
 
-Вашему вниманию предлагаются вопросы к статье [Linux Processes Explained](https://devconnected.com/understanding-processes-on-linux/).
+Вашему вниманию предлагаются вопросы к статье [Linux Processes Explained](https://devconnected.com/understanding-processes-on-linux).
 Если вы внимательно прочитали эту статью и поняли основные принципы, которые в ней изложены, вы сможете ответить на большинство вопросов ниже.
 
 ## Базовые знания
@@ -103,10 +103,10 @@ $ ls -l
 С этими упражнениями по процессам в Linux вы, надеюсь, узнали больше о процессах, о том, как вы можете их обрабатывать и эффективно их контролировать.
 
 Хотите больше упражнений?
-* [30 Linux Permissions Exercises for Sysadmins](https://devconnected.com/30-linux-permissions-exercises-for-sysadmins/)
+* [30 Linux Permissions Exercises for Sysadmins](https://devconnected.com/30-linux-permissions-exercises-for-sysadmins)
 
 На этом все.
 
 ## Дополнительные ссылки
 
-1. [30 Linux Processes Exercises For Sysadmins](https://devconnected.com/30-linux-processes-exercises-for-sysadmins/)
+1. [30 Linux Processes Exercises For Sysadmins](https://devconnected.com/30-linux-processes-exercises-for-sysadmins)

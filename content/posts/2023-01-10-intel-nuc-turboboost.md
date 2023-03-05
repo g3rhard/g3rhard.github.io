@@ -33,4 +33,4 @@ That's all.
 
 1. [man - tmpfiles.d](https://manpages.ubuntu.com/manpages/jammy/man5/tmpfiles.d.5.html)
 2. [github - erpalma/throttled](https://github.com/erpalma/throttled)
-3. [reddit - Disable intel turbo - Patch in /sys/devices/system/cpu/](https://www.reddit.com/r/linuxquestions/comments/m4xnts/disable_intel_turbo_patch_in_sysdevicessystemcpu/)
+3. [reddit - Disable intel turbo - Patch in /sys/devices/system/cpu/](https://www.reddit.com/r/linuxquestions/comments/m4xnts/disable_intel_turbo_patch_in_sysdevicessystemcpu)

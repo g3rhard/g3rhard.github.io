@@ -5,7 +5,7 @@ date:   2017-12-01 09:00:00 +0800
 categories: new hack
 ---
 
-***По мотивам [статьи на Habrahabr](https://habrahabr.ru/post/320278/).***
+***По мотивам [статьи на Habrahabr](https://habrahabr.ru/post/320278).***
 
 Небольшая заметка в качестве напоминания, что бы перестать использовать ifconfig и часть утилит, входящих в пакет net-tools.
 
@@ -58,4 +58,4 @@ ip r add {network/mask} via {gatewayip} # элементарно, как и об
 
 1. [Настройка сети в Linux](https://losst.ru/nastrojka-seti-v-linux)
 2. [Wikipedia - IP (утилита)](https://ru.wikipedia.org/wiki/Ip_(%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D0%B0_Unix))
-3. [Настройка сети в Debian](http://debian-help.ru/articles/nastroika-seti-s-pomoschyu-utility-ip-v-debian-linux/)
+3. [Настройка сети в Debian](http://debian-help.ru/articles/nastroika-seti-s-pomoschyu-utility-ip-v-debian-linux)

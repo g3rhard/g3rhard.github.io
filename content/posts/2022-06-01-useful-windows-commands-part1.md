@@ -60,4 +60,4 @@ That's all.
 
 1. [Dan Tsekhanskiy - My PowerShell Profile](https://tseknet.com/blog/psprofile)
 2. [mikemaccana/powershell-profile](https://github.com/mikemaccana/powershell-profile)
-3. [how-to geek - Customizing your PowerShell Profile](https://www.howtogeek.com/50236/customizing-your-powershell-profile/)
+3. [how-to geek - Customizing your PowerShell Profile](https://www.howtogeek.com/50236/customizing-your-powershell-profile)

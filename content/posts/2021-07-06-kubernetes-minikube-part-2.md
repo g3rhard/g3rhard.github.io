@@ -224,4 +224,4 @@ That's all.
 ## Additional links
 
 1. [baeldung - Using Helm and Kubernetes](https://www.baeldung.com/ops/kubernetes-helm)
-2. [bitnami - Create Your First Helm Chart](https://docs.bitnami.com/tutorials/create-your-first-helm-chart/)
+2. [bitnami - Create Your First Helm Chart](https://docs.bitnami.com/tutorials/create-your-first-helm-chart)

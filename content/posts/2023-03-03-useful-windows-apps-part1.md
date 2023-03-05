@@ -39,7 +39,7 @@ Nord is a color scheme that I use for my terminal and VS Code, providing a clean
 
 ## Vivaldi
 
-[Link](https://vivaldi.com/download/)
+[Link](https://vivaldi.com/download)
 
 Vivaldi is a highly customizable web browser that offers a range of features such as tab stacking and built-in note-taking. With Vivaldi, I can keep all of my work-related tabs organized and easily accessible. I also use the built-in RSS feature to get the latest updates from different sources (I hope I'll write about it later).
 

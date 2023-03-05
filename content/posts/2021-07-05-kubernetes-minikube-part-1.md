@@ -26,7 +26,7 @@ categories: k8s kubernetes minikube
   ```
 
 * Устанавливаем зависимости:
-  * [minikube](https://minikube.sigs.k8s.io/docs/start/)
+  * [minikube](https://minikube.sigs.k8s.io/docs/start)
 
   ```sh
   curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
@@ -213,6 +213,6 @@ That's all.
 
 ## Additional links
 
-1. [minikube - start](https://minikube.sigs.k8s.io/docs/start/)
+1. [minikube - start](https://minikube.sigs.k8s.io/docs/start)
 2. [ngrok](https://ngrok.com/download)
 3. [linode](https://www.linode.com)

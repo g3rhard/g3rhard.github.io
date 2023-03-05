@@ -13,7 +13,7 @@ categories: translate
 
 ## Написание как двухступенчатый процесс
 
-В [Hosted Graphite](https://www.hostedgraphite.com/) пользователи хорошо технически подкованы и ценят детали событий. Поэтому, для публичных документов мы прилагаем значительные усилия, что бы выбрать правильный язык и уровень детализации для событий. Это значит, что сначала акцент должен быть на как можно более полном и точном сборе информации, а уже после этого текст должен быть приведен к более читаемому виду.
+В [Hosted Graphite](https://www.hostedgraphite.com) пользователи хорошо технически подкованы и ценят детали событий. Поэтому, для публичных документов мы прилагаем значительные усилия, что бы выбрать правильный язык и уровень детализации для событий. Это значит, что сначала акцент должен быть на как можно более полном и точном сборе информации, а уже после этого текст должен быть приведен к более читаемому виду.
 
 Имея это ввиду, при написании вашего первого черновика (шаг 1) Postmortem, вы должны сфокусироваться на сборе информации, которую хотите включить и проверить ее точность. Этот черновик должен отражать: **что** случилось, объяснения **почему**, включить все уроки, которые вы (коллективно) вынесли из этого инциндента. Когда у вас будет положительный отклик на этот черновик - самое время (шаг 2), что бы поработать над языком и тоном этого документа, для того, что бы сделать его достоянием общественности (конечно, если ваша цель - внешняя публикация документа). Это позволит сосредоточиться на правильной подаче информации и разделить проблемы, сфокусировав обзор так, что бы разные проблемы имели разный язык и тон.
 
@@ -21,7 +21,7 @@ categories: translate
 
 В идеальном случае, ваш черновик должны рецензировать все SRE, задействованные в процессе решения инциндента: те кто сделал свой вклад, и те, кто вынес для себя уроки. Как минимум двое SRE должны подписать черновик, прежде чем переходить к шагу два, что также потребует как минимум двоих SRE, прежде чем документ будет готов для публикации.
 
-Если ваш Postmortem был рецензирован (если это публичный документ), вы можете скопировать его на свою страницу [Statuspage](https://status.hostedgraphite.com/). Держите в уме, что форматирование документа также имеет большое значение, поэтому перед публикацией необходимо проверить, как будет выглядеть документ.
+Если ваш Postmortem был рецензирован (если это публичный документ), вы можете скопировать его на свою страницу [Statuspage](https://status.hostedgraphite.com). Держите в уме, что форматирование документа также имеет большое значение, поэтому перед публикацией необходимо проверить, как будет выглядеть документ.
 
 Обязательно убедитесь, что поделились этим документом с остальной (незадействованной в инцинденте) частью команды SRE. То, что вы пишете Postmortem будет полезно только в том случае, если все в вашей команде смогут прочитать его, поэтому попросите всех выделить время для его прочтения и, по возможности, отправить вам обратный отклик.
 
@@ -49,7 +49,7 @@ categories: translate
 
 ### "Что прошло хорошо (получилось сделать)?"
 
-"Не все так плохо" (Я имел ввиду, я так думаю... по крайней мере это то, что люди говорят мне!). Даже в случае [худшего инциндента](https://www.hostedgraphite.com/blog/spooky-action-at-a-distance-how-an-aws-outage-ate-our-load-balancer) некоторые вещи пройдут хорошо. Может быть [наш мониторинг](https://www.hostedgraphite.com/) очень быстро среагировал и предупредил нас, как раз вовремя, что бы предотвратить дальнейшие проблемы. Может наш балансировщик увел маршруты от затронутых узлов, увеличив задержку к сервисам, но не допустив потерю данных.
+"Не все так плохо" (Я имел ввиду, я так думаю... по крайней мере это то, что люди говорят мне!). Даже в случае [худшего инциндента](https://www.hostedgraphite.com/blog/spooky-action-at-a-distance-how-an-aws-outage-ate-our-load-balancer) некоторые вещи пройдут хорошо. Может быть [наш мониторинг](https://www.hostedgraphite.com) очень быстро среагировал и предупредил нас, как раз вовремя, что бы предотвратить дальнейшие проблемы. Может наш балансировщик увел маршруты от затронутых узлов, увеличив задержку к сервисам, но не допустив потерю данных.
 
 Для большинства сервисов есть факторы, которые смягчили ситуацию, не позволив стать ситуации гораздо хуже. Важно понять, что это за факторы, и так они помогут улучшить наше понимание, как сделать так, что бы система работала лучше, чем искать факторы, которые позволили системе стать уязвимой.
 
@@ -88,11 +88,11 @@ categories: translate
 ## Дополнительные ссылки
 
 1. ["It's dead, Jim": How we write an incident postmortem](https://www.hostedgraphite.com/blog/its-dead-jim-how-we-write-an-incident-postmortem)
-2. [Hosted Graphite](https://www.hostedgraphite.com/)
+2. [Hosted Graphite](https://www.hostedgraphite.com)
 3. [Chapter 15 of the SRE book](https://landing.google.com/sre/book/chapters/postmortem-culture.html)
 4. ["The infinite hows" - John Allspaw](https://www.oreilly.com/ideas/the-infinite-hows)
 5. [Incidents as we Imagine Them Versus How They Actually Are - John Allspaw (video)](https://www.youtube.com/watch?v=8DtzmV1jiyQ)
 6. [How complex systems fail - Richard Cook](http://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf)
-7. [The Multiple Audiences and Purposes of Post-Incident Reviews](https://www.adaptivecapacitylabs.com/blog/2018/10/08/the-multiple-audiences-and-purposes-of-post-incident-reviews/)
-8. [Some Observations On the Messy Realities of Incident Reviews](https://www.adaptivecapacitylabs.com/blog/2019/06/17/some-observations-on-the-messy-realities-of-incident-reviews/)
-9. [Hindsight and sacrifice decisions](https://www.adaptivecapacitylabs.com/blog/2019/03/03/hindsight-and-sacrifice-decisions/)
+7. [The Multiple Audiences and Purposes of Post-Incident Reviews](https://www.adaptivecapacitylabs.com/blog/2018/10/08/the-multiple-audiences-and-purposes-of-post-incident-reviews)
+8. [Some Observations On the Messy Realities of Incident Reviews](https://www.adaptivecapacitylabs.com/blog/2019/06/17/some-observations-on-the-messy-realities-of-incident-reviews)
+9. [Hindsight and sacrifice decisions](https://www.adaptivecapacitylabs.com/blog/2019/03/03/hindsight-and-sacrifice-decisions)

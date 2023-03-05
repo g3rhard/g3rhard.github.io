@@ -68,4 +68,4 @@ Bullet journaling - это некий организационный стиль,
 
 1. [Bullet journaling for sysadmins](https://www.redhat.com/sysadmin/bullet-journaling)
 2. [Wikipedia - Bullet Journal](https://en.wikipedia.org/wiki/Bullet_Journal)
-3. [Как вести bullet journal](https://mybujo.ru/kak-vesti/)
+3. [Как вести bullet journal](https://mybujo.ru/kak-vesti)

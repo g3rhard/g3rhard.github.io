@@ -75,7 +75,7 @@ add allow=chap,mschap2 connect-to=SERVER_IP disabled=no ipsec-secret=\
 
 ## Дополнительные ссылки
 
-1. [Habrahabr - Выходим в интернет за пределами РФ](https://habrahabr.ru/post/337426/)
-2. [Habrahabr - Настройка OpenVPN в связке Mikrotik/Ubuntu](https://habrahabr.ru/post/227767/)
-3. [Mikrotik - Wiki](https://wiki.mikrotik.com/)
+1. [Habrahabr - Выходим в интернет за пределами РФ](https://habrahabr.ru/post/337426)
+2. [Habrahabr - Настройка OpenVPN в связке Mikrotik/Ubuntu](https://habrahabr.ru/post/227767)
+3. [Mikrotik - Wiki](https://wiki.mikrotik.com)
 4. [Github - hwdsl2/setup-ipsec-vpn](https://github.com/hwdsl2/setup-ipsec-vpn)

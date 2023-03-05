@@ -27,5 +27,5 @@ alias chillout='vlc http://air.radiorecord.ru:805/chil_64 &'
 1. [30 Handy Bash Shell Aliases For Linux / Unix / Mac OS X](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html)
 2. [Digital Ocean - An Introduction to Useful Bash Aliases and Functions](https://www.digitalocean.com/community/tutorials/an-introduction-to-useful-bash-aliases-and-functions)
 3. [Gist - ioparaskev](https://gist.github.com/ioparaskev/88875c83bcab519f017b9cdd0b1960e7)
-4. [xakep.ru - Прокачай терминал! Полезные трюки, которые сделают тебя гуру консоли](https://xakep.ru/2017/05/18/cli-console-tips/)
+4. [xakep.ru - Прокачай терминал! Полезные трюки, которые сделают тебя гуру консоли](https://xakep.ru/2017/05/18/cli-console-tips)
 5. [How to run VLC command in mac terminal](https://superuser.com/questions/997673/how-to-run-vlc-command-in-mac-terminal)

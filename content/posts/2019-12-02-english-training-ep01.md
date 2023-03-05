@@ -23,6 +23,6 @@ That's all.
 1. [Soundcloud](https://soundcloud.com)
 2. [Google Podcasts: The Big English Stand-up Show](https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5zb3VuZGNsb3VkLmNvbS91c2Vycy9zb3VuZGNsb3VkOnVzZXJzOjEzOTAwMjQ5L3NvdW5kcy5yc3M)
 3. [Test your vocab - How many words do you know?](http://testyourvocab.com)
-4. [English in 10 minutes](https://englishin10minutes.com/)
+4. [English in 10 minutes](https://englishin10minutes.com)
 5. [Google Podcasts: The Daily](https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5wb2R0cmFjLmNvbS96S3E2V1paTFRsYk0&ved=0CAQQrrcFahcKEwjY-5LQwdrnAhUAAAAAHQAAAAAQCQ)
 6. [Google Podcasts: English in 10 minutes](https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5ibHVicnJ5LmNvbS9mZWVkcy9lbmdsaXNoaW4xMG1pbnV0ZXMueG1s)

@@ -18,7 +18,7 @@ docker exec -it CONTAINER_NAME /bin/bash
 ```sh
 docker ps --all
 ```
-4. [Обновить опции контейнера docker](https://docs.docker.com/engine/reference/commandline/update/)
+4. [Обновить опции контейнера docker](https://docs.docker.com/engine/reference/commandline/update)
 ```sh
 docker update [OPTIONS] CONTAINER [CONTAINER...]
 ```

@@ -9,7 +9,7 @@ categories: hack
 
 Основано на: https://habrahabr.ru/post/320106/ и https://jhalon.github.io/vulnhub-mr-robot1/
 
-Для начала скачиваем последнюю версию тестовой машины (https://download.vulnhub.com/mrrobot/mrRobot.ova.torrent) и последнюю версию Kali Linux (https://www.kali.org/downloads/).
+Для начала скачиваем последнюю версию тестовой машины (https://download.vulnhub.com/mrrobot/mrRobot.ova.torrent) и последнюю версию Kali Linux (https://www.kali.org/downloads).
 
 ### Первый флаг
 
