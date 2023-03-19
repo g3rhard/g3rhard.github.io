@@ -27,6 +27,24 @@ categories: nix cli
 - After installation you will be able to setup Proton version for different games launchers (Steam/Heroic)
 - TODO: Transfer save data for Heroic games
 
+## Install decky-loader
+
+- Switch to "Desktop Mode"
+- Open "Konsole" app
+- Run this command (it will ask for sudo password):
+
+```sh
+curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/install_release.sh | sh
+```
+
+- Return to "Game Mode"
+- Some of useful plugins
+  - Controller Tools
+  - CSS Loader
+  - PowerTools
+  - System Toolbox
+  - vibrantDeck
+
 ## Install CryoUtilities tweaks
 
 And last, but not least - CryoUtilities
@@ -48,3 +66,4 @@ That's all.
 2. [Heroic Games Launcher](https://heroicgameslauncher.com)
     - [Heroic-Games-Launcher/HeroicGamesLauncher](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher)
 3. [Wagner's TechTalk - Steam Deck Guide](https://wagnerstechtalk.com/steamdeck)
+4. [SteamDeckHomebrew/decky-loader](https://github.com/SteamDeckHomebrew/decky-loader)
