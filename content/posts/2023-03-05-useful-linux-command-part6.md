@@ -24,6 +24,18 @@ vim +PluginInstall +qall
 vim +PluginUpdate +qall
 ```
 
+*4.* Удалить пустые и закомментированные строки в файле
+
+```sh
+sed '/^[[:blank:]]*#/d;s/#.*//' FILENAME
+```
+
+*5.* Проверить ratelimits для API (например, для fail2ban)
+
+```sh
+for i in {0..20}; do (curl -Is --request GET -H "Content-Type: application/json" "API_URL"  | head -n1 >> check_rate_limit.log &) 2>/dev/null; done
+```
+
 На этом все.
 
 ## Дополнительные ссылки
