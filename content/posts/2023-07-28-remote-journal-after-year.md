@@ -139,5 +139,4 @@ That's all.
 ## Additional links
 
 1. [Marco "Efesto" Polita](https://github.com/Efesto)
-2. [flow](https://www.psychologytoday.com/us/basics/flow)
-3. [Medium - Why Every Developer Should Keep a Daily Code Journal](https://blog.developerpurpose.com/why-every-developer-should-keep-a-daily-code-journal-fb83ab848c6)
+2. [Move faster, wait less: Improving code review time at Meta](https://engineering.fb.com/2022/11/16/culture/meta-code-review-time-improving)3. [GitLab - All-Remote Meetings](https://about.gitlab.com/company/culture/all-remote/meetings/)
