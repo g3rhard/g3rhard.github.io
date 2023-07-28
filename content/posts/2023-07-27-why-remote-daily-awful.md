@@ -6,7 +6,7 @@ categories: work
 ---
 
 One interesting article about daily meetings from [Marco "Efesto" Polita](https://github.com/Efesto).
-Here it's just copy-pasted article about his thoughts, which I found very interesting for mysefl.
+Here it's just copy-pasted article about his thoughts, which I found very interesting for myself.
 
 ---
 
