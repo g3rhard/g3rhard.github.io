@@ -36,6 +36,12 @@ sed '/^[[:blank:]]*#/d;s/#.*//' FILENAME
 for i in {0..20}; do (curl -Is --request GET -H "Content-Type: application/json" "API_URL"  | head -n1 >> check_rate_limit.log &) 2>/dev/null; done
 ```
 
+*6.* Альтернативный вывод статуса контейнеров Docker
+
+```sh
+docker ps -a --format "Container {{.ID}} ({{.Names}}) is using image {{.Image}} and is currently {{.Status}}"
+```
+
 На этом все.
 
 ## Дополнительные ссылки
