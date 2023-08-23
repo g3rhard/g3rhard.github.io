@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Kubernetes: Исследование с помощью Minikube - часть 4"
-date:       2023-08-23 08:00:00 +0200
+date:       2023-08-22 08:00:00 +0200
 categories: k8s kubernetes minikube
 ---
 
