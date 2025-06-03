@@ -44,7 +44,6 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
-
   homeInfoParams:
     Title: "Hi there \U0001F44B"
     Content: Welcome to my blog
@@ -91,3 +90,6 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+
+ignoreLogs:
+  - warning-goldmark-raw-html # about/index.md
