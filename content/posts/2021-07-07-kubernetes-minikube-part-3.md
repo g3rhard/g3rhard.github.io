@@ -77,7 +77,7 @@ categories: k8s kubernetes minikube
 
 * В основной ветке (main) создаем файл GitHub Action (.github/workflows/release.yml) следующего содержания:
 
-  {% gist 2d6f6d85bef57d9a4c1a5601127505f1 %}
+  {{< gist 2d6f6d85bef57d9a4c1a5601127505f1 >}}
 
 Если все сделали правильно, то после выполнения GitHub Actions мы сможем увидеть свежий релиз в разделе "Releases" на главной странице нашего репозитория.
 

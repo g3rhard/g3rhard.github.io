@@ -11,7 +11,7 @@ categories: nix cli
 
   * Можно использовать следующий docker-compose:
 
-    {% gist 6b735868b6b9a6f75fee5ea8371f428f %}
+    {{< gist 6b735868b6b9a6f75fee5ea8371f428f >}}
 
   * Генерируем ключи:
 
