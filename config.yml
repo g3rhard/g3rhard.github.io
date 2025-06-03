@@ -6,7 +6,7 @@ pagination:
   pagerSize: 5
 rssLimit: 10
 
-googleAnalytics: "UA-125136651-1"
+googleAnalytics: "G-DET82WTHY7"
 
 minify:
   disableXML: true
