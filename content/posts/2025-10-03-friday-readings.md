@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Friday readings — Week 40/2025"
+title:      "Friday readings - Week 40/2025"
 date:       2025-10-03 08:00:00 +0200
 categories: readings
 ---
@@ -19,7 +19,7 @@ A quick collection of must‑reads, tool announcements, and tech highlights that
   A no‑fluff exploration of how far plain SSH can take you: transfers, tunnels, streaming, and more, without extra services.
 * [Make Obsidian look & function like Apple Notes](https://forum.obsidian.md/t/make-obsidian-look-function-like-apple-notes/90610)
   Help Obsidian mimic the simplicity and feel of Apple Notes.
-* [SRE in 100 Lessons (Theme 1)](https://sre.in100.dev/)
+* [SRE in 100 Lessons](https://sre.in100.dev/)
   Series of distilled, actionable lessons extracted from classic Google SRE principles tailored for everyday operations.
 
 ## 🛠️ New Tools & Announcements
